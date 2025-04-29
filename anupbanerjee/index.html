@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anup Banerjee - Web Designer and Front-end Developer</title>
+        <!-- favicon  -->
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <!-- Bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!--  Box Icon-->
+        <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+        <!--Owl Carousel -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <!-- Lightbox  css-->
+        <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
+        <!--  Custom css-->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#scroll-spy" data-bs-offset="40" onload="loaderFunction()">
+        <!--== Header Start ==-->
+        <header id="header">
+            <div class="header_wrapper">
+                <div class="topbar">
+                    <div class="container">
+                        <div class="lf_side">
+                            <ul>
+                                <li><i class="bx bxs-phone"></i></li>
+                                <li><a href="tel:7001787467">(+91) 7001-787-467</a></li>
+                            </ul>
+                            <ul>
+                                <li><i class="bx bxs-envelope"></i></li>
+                                <li><a href="mailto:anuplca2020@gmail.com">anuplca2020@gmail.com</a></li>
+                            </ul>
+                        </div>
+                        <ul class="secal_links">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100036158200532" target="_blank"><i class="bx bxl-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/banerjee5843/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/anup5678" target="_blank"><i class="bx bxl-telegram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=917001787467" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom_header" id="mobileMenu">
+                    <div class="container">
+                        <nav class="navbar" id="scroll-spy">
+                            <a href="index.html" class="logo">Anup Banerjee</a>
+                            <div class="div">
+                                <ul class="navbar nav menu">
+                                    <li class="nav-item"><a class="nav-link active" href="index.html" onclick="toggle()">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about" onclick="toggle()">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#skill" onclick="toggle()">Skills</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#work" onclick="toggle()">My work</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#portfolio" onclick="toggle()">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact" onclick="toggle()">Contact Me</a></li>
+                                </ul>
+                            </div>
+                            <div class="toggle" onclick="toggle()"></div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--== Header End ==-->
+
+        <!--== Banner Start ==-->
+        <div class="banner">
+            <div class="container">
+                <div class="banner_desc">
+                    <h3>Hello,I’m a</h3>
+                    <h1>Web <span>Designer</span></h1>
+                    <div class="btn_block">
+                        <a href="images/anup-banerjee-cv.pdf" class="btn_accent" download="true" target="blank">Download <span>Cv</span></a>
+                        <a href="#about" class="btn_accent btn_2">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--== Banner End ==-->
+
+        <!--== About Start ==-->
+        <section class="about_block" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 lf_side">
+                        <div class="img_block">
+                            <img src="images/about-img-2.png" class="img-fluid" alt="about-img" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 rt_side">
+                        <div class="heading">
+                            <h2><span>who am i</span>About Me</h2>
+                            <p>
+                                I am Anup Banerjee, a creative <em>Web designer</em> and <em>front-end developer</em> from Ashoknagar, West Bengal. Although I am a Fresher in this field, I have work experience of desiging and coding
+                                multiple websites.
+                            </p>
+                            <p>
+                                I am also skilled in <em>Graphics design</em> and can make beautiful Logo, Banner, Business Card, Social Media post, Brochure, Flyer etc. My alma mater is
+                                <a href="https://learncomputer.in/" target="_blank">Learn Computer Academy, Habra.</a> Please checkout my portfolio links below.
+                            </p>
+                            <a href="#work" class="btn_accent">Visit Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== About End ==-->
+
+        <!--== Skills Start ==-->
+        <section class="skill_block" id="skill">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2><span>awesome</span>My Skills</h2>
+                </div>
+                <div class="grid-container">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bxl-adobe"></i>
+                        </div>
+                        <div class="value">
+                            <h3>Photoshop</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bx-highlight"></i>
+                        </div>
+                        <div class="value">
+                            <h3>Graphics Design</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bxl-html5"></i>
+                        </div>
+                        <div class="value">
+                            <h3>HTML5</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bxl-css3"></i>
+                        </div>
+                        <div class="value">
+                            <h3>CSS3</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bxl-bootstrap"></i>
+                        </div>
+                        <div class="value">
+                            <h3>Bootstrap</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bxl-jquery"></i>
+                        </div>
+                        <div class="value">
+                            <h3>JQuery</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bxs-plug"></i>
+                        </div>
+                        <div class="value">
+                            <h3>Various Plugins</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="icon">
+                            <i class="bx bx-mobile"></i>
+                        </div>
+                        <div class="value">
+                            <h3>Responsive</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== Skills End ==-->
+
+        <!--== Work_block Start ==-->
+        <section class="work_block bg-color" id="work">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2><span>awesome projects</span>my work</h2>
+                </div>
+                <div class="slider">
+                    <div class="sider_title">
+                        <h3>Websites</h3>
+                    </div>
+                    <div class="loop owl-carousel owl-theme items">
+                        <div class="item">
+                            <div class="img-block">
+                                <img src="images/website-1.jpg" alt="" class="img-fluid" />
+                            </div>
+                            <div class="wesite-link">
+                                <a href="https://anuplca.github.io/excon/" target="_blank"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-block">
+                                <img src="images/website-2.jpg" alt="" class="img-fluid" />
+                            </div>
+                            <div class="wesite-link">
+                                <a href="https://anuplca.github.io/endurance/" target="_blank"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-block">
+                                <img src="images/website-3.jpg" alt="" class="img-fluid" />
+                            </div>
+                            <div class="wesite-link">
+                                <a href="https://anuplca.github.io/univeros/index.html" target="_blank"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-block">
+                                <img src="images/website-4.jpg" alt="" class="img-fluid" />
+                            </div>
+                            <div class="wesite-link">
+                                <a href="https://anuplca.github.io/bethany/" target="_blank"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-block">
+                                <img src="images/website-5.jpg" alt="" class="img-fluid" />
+                            </div>
+                            <div class="wesite-link">
+                                <a href="https://anuplca.github.io/restaurantly/" target="_blank"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- slider end -->
+                <div class="portfolio" id="portfolio">
+                    <div class="portfolio_title">
+                        <h3>Portfolio</h3>
+                    </div>
+                    <ul class="nav nav-tabs" id="portfolio-btn">
+                        <li class="nav-item"><a href="#card" class="nav-link active" data-bs-toggle="tab">Cards</a></li>
+                        <li class="nav-item"><a href="#post" class="nav-link" data-bs-toggle="tab">Posts</a></li>
+                        <li class="nav-item"><a href="#logo" class="nav-link" data-bs-toggle="tab">Logo</a></li>
+                        <li class="nav-item"><a href="#flyer" class="nav-link" data-bs-toggle="tab">Flyer</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane tab-pane-1 fade active show" id="card">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/card-1.jpg" class="img-fluid" alt="Card" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Clark</h3>
+                                            <div class="link-block">
+                                                <a href="images/card-1-big.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/card-2.jpg" class="img-fluid" alt="Card" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Renovation</h3>
+                                            <div class="link-block">
+                                                <a href="images/card-2.1.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/card-3.jpg" class="img-fluid" alt="Card" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Azpando</h3>
+                                            <div class="link-block">
+                                                <a href="images/card-3.1.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/card-4.jpg" class="img-fluid" alt="Card" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Design</h3>
+                                            <div class="link-block">
+                                                <a href="images/card-4.1.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/card-5.jpg" class="img-fluid" alt="Card" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Js</h3>
+                                            <div class="link-block">
+                                                <a href="images/card-5.1.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/card-6.jpg" class="img-fluid" alt="Card" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Jongli Design</h3>
+                                            <div class="link-block">
+                                                <a href="images/card-6.1.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane tab-pane-2 fade" id="post">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/post-1.jpg" class="img-fluid" alt="Post" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Fashion</h3>
+                                            <div class="link-block">
+                                                <a href="images/post-1.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/post-2.jpg" class="img-fluid" alt="Post" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Fashion</h3>
+                                            <div class="link-block">
+                                                <a href="images/post-2.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/post-3.jpg" class="img-fluid" alt="Post" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Music</h3>
+                                            <div class="link-block">
+                                                <a href="images/post-3.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/post-4.jpg" class="img-fluid" alt="Post" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Marketing</h3>
+                                            <div class="link-block">
+                                                <a href="images/post-4.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/post-5.jpg" class="img-fluid" alt="Post" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Learn computer</h3>
+                                            <div class="link-block">
+                                                <a href="images/post-5.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/post-6.jpg" class="img-fluid" alt="Post" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Pubg</h3>
+                                            <div class="link-block">
+                                                <a href="images/post-6.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane tab-pane-4 fade" id="logo">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/p-logo-2.png" class="img-fluid" alt="Logo" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Eggale</h3>
+                                            <div class="link-block">
+                                                <a href="images/p-logo-2.png" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/p.logo-1.png" class="img-fluid" alt="Logo" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Mountain</h3>
+                                            <div class="link-block">
+                                                <a href="images/p.logo-1.png" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/logo-3.jpg" class="img-fluid" alt="Logo" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Problem</h3>
+                                            <div class="link-block">
+                                                <a href="images/logo-3.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/logo-4.jpg" class="img-fluid" alt="Logo" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Dinefine</h3>
+                                            <div class="link-block">
+                                                <a href="images/logo-4.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/t-logo.jpg" class="img-fluid" alt="Logo" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>T logo</h3>
+                                            <div class="link-block">
+                                                <a href="images/t-logo.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/alvari-logo.jpg" class="img-fluid" alt="Logo" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Alvari</h3>
+                                            <div class="link-block">
+                                                <a href="images/alvari-logo.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane tab-pane-4 fade" id="flyer">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/travel.jpg" class="img-fluid" alt="flyer" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Travel</h3>
+                                            <div class="link-block">
+                                                <a href="images/travel.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/online-education.jpg" class="img-fluid" alt="flyer" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Online Education</h3>
+                                            <div class="link-block">
+                                                <a href="images/online-education.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/vaccination.jpg" class="img-fluid" alt="flyer" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Vaccination</h3>
+                                            <div class="link-block">
+                                                <a href="images/vaccination.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/music.jpg" class="img-fluid" alt="flyer" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Music</h3>
+                                            <div class="link-block">
+                                                <a href="images/music.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/business.jpg" class="img-fluid" alt="flyer" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Business</h3>
+                                            <div class="link-block">
+                                                <a href="images/business.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 col-12">
+                                    <div class="itemBox">
+                                        <div class="img-block">
+                                            <img src="images/musical.jpg" class="img-fluid" alt="flyer" />
+                                        </div>
+                                        <div class="text-block">
+                                            <h3>Musical</h3>
+                                            <div class="link-block">
+                                                <a href="images/musical.jpg" data-lightbox="roadtrip"><i class="bx bx-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== Work-block End ==-->
+
+        <!--== Contact_block Start ==-->
+        <section class="contact_block" id="contact">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2><span>hire me</span>Contact Me</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="lf_side">
+                            <div class="address_section">
+                                <div class="item">
+                                    <div class="icon"><i class="bx bx-current-location"></i></div>
+                                    <ul>
+                                        <li class="title">Location:</li>
+                                        <li class="text">Ashoknagar, W.B, India</li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="icon"><i class="bx bxs-phone"></i></div>
+                                    <ul>
+                                        <li class="title">Call :</li>
+                                        <li class="text"><a href="tel:7001787467">(+91) 7001-787-467</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="icon"><i class="bx bxs-envelope"></i></div>
+                                    <ul>
+                                        <li class="title">Email :</li>
+                                        <li class="text"><a href="mailto:anuplca2020@gmail.com">anuplca2020@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="map_block">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29416.08945722263!2d88.60124994017457!3d22.83907579411781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8ba9adc986545%3A0x77b154fcf8f56e45!2sAshoknagar%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1613982284243!5m2!1sen!2sin"
+                                    style="border: 0;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ri_side">
+                            <form action="https://api.web3forms.com/submit" method="post" id="form">
+                                <input type="hidden" name="apikey" value="4ee23aa9-d10c-4a71-99cf-8fe0678144aa" />
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="name" class="form-group-label">Your name</label>
+                                            <input type="text" id="name" class="form-control" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="email" class="form-group-label">Email</label>
+                                            <input type="email" id="email" class="form-control" required />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="subject" class="form-group-label">Subject</label>
+                                            <input type="text" id="subject" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="message" class="form-group-label">Message</label>
+                                            <textarea id="message" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="btn_block">
+                                        <button type="submit" id="submit" class="btn_accent">Send Message</button>
+                                        <p id="result"></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== Contact-block End ==-->
+
+        <!--== Footer Start ==-->
+        <footer>
+            <div class="copy_right">
+                <div class="container">
+                    <p>© Copyright 2021. All Rights Reserved Designed by <span>Anup Banerjee</span></p>
+                </div>
+            </div>
+        </footer>
+        <!--== Footer End ==-->
+
+        <!--== Lodding Start ==-->
+        <div class="lodding" id="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!--== Lodding End ==-->
+
+        <!--== Bottom to Top Start ==-->
+        <a id="back2Top" href="#"><i class="bx bxs-chevron-up-circle"></i></a>
+        <!--== Bottom to Top Start ==-->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/myScript.js"></script>
+    </body>
+</html>

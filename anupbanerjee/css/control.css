@@ -1,0 +1,129 @@
+/* import font */
+@import "fonts.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    max-width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d0d5f3;
+    border-radius: 5px;
+}
+
+:root {
+    /* font */
+    --aileron_font: "Aileron";
+    --baskerville_font: "Libre Baskerville";
+    /* color */
+    --accent_color: #3d4260;
+    --secondary_color: #c70039;
+    --black_color: #000;
+    --white_color: #fff;
+    /* effact */
+    --trans: all 0.5s ease-in-out;
+}
+
+body {
+    position: relative;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+    line-height: 1.3;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:active,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+i.bx {
+    font-size: 16px;
+    color: var(--white_color);
+}
+
+section {
+    padding: 80px 0;
+}
+
+.bg-color {
+    background-color: rgba(211, 213, 224, 0.1);
+}
+
+.heading h2 {
+    font-family: var(--aileron_font);
+    font-size: 70px;
+    color: var(--accent_color);
+    line-height: 1.3;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.heading h2 span {
+    font-family: var(--baskerville_font);
+    font-size: 22px;
+    font-style: italic;
+    color: var(--secondary_color);
+    line-height: 0;
+    font-weight: 200;
+    text-align: right;
+    text-transform: lowercase;
+    display: block;
+}
+
+.heading p {
+    font-family: var(--aileron_font);
+    font-size: 16px;
+    color: var(--black_color);
+    line-height: 1.8;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.btn_accent {
+    font-family: var(--aileron_font);
+    font-size: 25px;
+    background-color: var(--secondary_color);
+    color: var(--white_color);
+    line-height: 1.3;
+    font-weight: 300;
+    padding: 13px 35px;
+    border: 2px solid var(--secondary_color);
+    border-radius: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: var(--trans);
+    box-shadow: 0 0 2px 0px rgba(61, 66, 96, 0.5);
+}
+
+.btn_accent:hover {
+    color: var(--white_color);
+    box-shadow: 0 0 0px 13px rgba(61, 66, 96, 0);
+}

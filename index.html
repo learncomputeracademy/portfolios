@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Showcase | Creative Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <iconify-icon icon="solar:folder-with-files-bold-duotone" width="32" height="32"></iconify-icon>
+                    <h1>Portfolio<span>Hub</span></h1>
+                </div>
+                <div class="search-container">
+                    <iconify-icon icon="iconamoon:search" width="20" height="20"></iconify-icon>
+                    <input type="text" id="search-input" placeholder="Search portfolios...">
+                </div>
+                <div class="view-toggle">
+                    <button id="grid-view" class="active">
+                        <iconify-icon icon="solar:square-four-outline" width="20" height="20"></iconify-icon>
+                    </button>
+                    <button id="list-view">
+                        <iconify-icon icon="solar:list-linear" width="20" height="20"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="sidebar">
+                <div class="category-filter">
+                    <h3>Categories</h3>
+                    <ul class="filter-list">
+                        <li class="active" data-filter="all">All Portfolios</li>
+                        <li data-filter="design">Design</li>
+                        <li data-filter="development">Development</li>
+                        <li data-filter="creative">Creative</li>
+                        <li data-filter="minimal">Minimal</li>
+                    </ul>
+                </div>
+                
+                <div class="featured-section">
+                    <h3>Featured</h3>
+                    <div class="featured-portfolio">
+                        <div class="featured-image">
+                            <img src="monish-portfolio.png" alt="Featured Portfolio">
+                            <div class="featured-overlay">
+                                <span>View</span>
+                            </div>
+                        </div>
+                        <h4>Monish Lca</h4>
+                        <span class="featured-tag">Trending</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-grid grid-view" id="portfolio-container">
+                <!-- Portfolio cards will be dynamically generated here -->
+            </div>
+        </main>
+
+        <div class="portfolio-modal" id="portfolio-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modal-title">Portfolio Details</h2>
+                    <button id="close-modal">
+                        <iconify-icon icon="solar:close-circle-bold" width="24" height="24"></iconify-icon>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="portfolio-preview">
+                        <img id="modal-image" src="/api/placeholder/400/320" alt="Portfolio Preview">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 id="modal-author">Author Name</h3>
+                        <div class="portfolio-stats">
+                            <div class="stat">
+                                <iconify-icon icon="solar:eye-linear" width="16" height="16"></iconify-icon>
+                                <span id="modal-views">1.2k</span>
+                            </div>
+                            <div class="stat">
+                                <iconify-icon icon="solar:heart-linear" width="16" height="16"></iconify-icon>
+                                <span id="modal-likes">256</span>
+                            </div>
+                            <div class="stat">
+                                <iconify-icon icon="solar:download-linear" width="16" height="16"></iconify-icon>
+                                <span id="modal-downloads">124</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags" id="modal-tags">
+                            <!-- Tags will be dynamically added here -->
+                        </div>
+                        <p id="modal-description">This is a detailed description of the portfolio project.</p>
+                        <div class="portfolio-actions">
+                            <a href="#" id="modal-live-link" class="btn primary" target="_blank">
+                                <iconify-icon icon="solar:eye-bold" width="18" height="18"></iconify-icon>
+                                Live Preview
+                            </a>
+                            <a href="#" id="modal-download-link" class="btn secondary">
+                                <iconify-icon icon="solar:download-bold" width="18" height="18"></iconify-icon>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-features">
+                    <h4>Key Features</h4>
+                    <ul id="modal-features">
+                        <!-- Features will be dynamically added here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

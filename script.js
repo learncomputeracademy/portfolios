@@ -105,7 +105,9 @@ const portfolios = [
         tags: ["template"],
         description: "Clean and modern portfolio template with minimalist design.",
         livePreviewUrls: [
-            { name: "Open Website", url: "/portfolio-links/heiko/index.html" }
+            { name: "Version 1", url: "/portfolio-links/heiko/index.html" },
+            { name: "Version 2", url: "/portfolio-links/heiko/index-2.html" },
+            { name: "Version 3", url: "/portfolio-links/heiko/index-3.html" }
         ]
     },
     {

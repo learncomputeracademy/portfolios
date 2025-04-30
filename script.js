@@ -96,9 +96,9 @@ const portfolios = [
         author: "Ovro",
         fileName: "/zip-files/ovro.zip",
         thumbnail: "/portfolio-links/ovro-portfolio.png",
-        tags: ["Grid", "Typography", "Clean"],
+        tags: ["template"],
         description: "",
-        livePreviewUrl: "/portfolio-links/drake/index.html"
+        livePreviewUrl: "/portfolio-links/ovro/index.html"
     }
 ];
 

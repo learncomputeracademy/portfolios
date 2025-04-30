@@ -6,8 +6,8 @@ const portfolios = [
         author: "Ratnadeep",
         fileName: "/zip-files/ratnadeep-portfolio.zip",
         thumbnail: "/portfolio-links/ratnadeep-portfolio.png",
-        tags: ["Motion", "Creative"],
-        description: "A vibrant portfolio showcasing creative UI/UX design work with smooth animations and interactive elements.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/ratnadeep/index.html"
     },
     {
@@ -16,8 +16,8 @@ const portfolios = [
         author: "Monish",
         fileName: "/zip-files/monishlca2022.zip",
         thumbnail: "/portfolio-links/monish-portfolio.png",
-        tags: ["Motion", "Creative"],
-        description: "A vibrant portfolio showcasing creative UI/UX design work with smooth animations and interactive elements.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/monish/index.html"
     },
     {
@@ -26,8 +26,8 @@ const portfolios = [
         author: "Tamal",
         fileName: "/zip-files/tamallca2022.zip",
         thumbnail: "/portfolio-links/tamal-portfolio.png",
-        tags: ["JavaScript", "Clean", "Minimal"],
-        description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/tamal/index.html"
     },
     {
@@ -36,8 +36,8 @@ const portfolios = [
         author: "Ujjal",
         fileName: "/zip-files/ujjal-portfolio.zip",
         thumbnail: "/portfolio-links/ujjal-portfolio.png",
-        tags: ["JavaScript", "Clean", "Minimal"],
-        description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/ujjal/index.html"
     },
     {
@@ -46,8 +46,8 @@ const portfolios = [
         author: "Mafiur",
         fileName: "/zip-files/mafiurislam-portfolio.zip",
         thumbnail: "/portfolio-links/mafiur-portfolio.png",
-        tags: ["JavaScript", "Clean", "Minimal"],
-        description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/mafiurislam/index.html"
     },
     {
@@ -56,8 +56,8 @@ const portfolios = [
         author: "Suman Das",
         fileName: "/zip-files/SumanDas_Portfolio-main.zip",
         thumbnail: "/portfolio-links/suman-portfolio.png",
-        tags: ["Three.js", "WebGL", "Interactive"],
-        description: "An innovative portfolio featuring 3D elements and interactive components showcasing full-stack development skills.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/sumandas/index.html"
     },
     {
@@ -66,8 +66,8 @@ const portfolios = [
         author: "Anup Banerjee",
         fileName: "/zip-files/anupbanerjee-main.zip",
         thumbnail: "/portfolio-links/anup-portfolio.png",
-        tags: ["Minimalist", "Typography", "Clean"],
-        description: "A typography-focused portfolio with minimalist design principles and elegant transitions.",
+        tags: ["student","portfolio"],
+        description: "",
         livePreviewUrl: "/portfolio-links/anupbanerjee/index.html"
     },
     {
@@ -76,19 +76,28 @@ const portfolios = [
         author: "Heiko",
         fileName: "/zip-files/template-heiko.zip",
         thumbnail: "/portfolio-links/heiko-portfolio.png",
-        tags: ["Grid", "Typography", "Clean"],
-        description: "A typography-focused portfolio with minimalist design principles and elegant transitions.",
+        tags: ["template"],
+        description: "",
         livePreviewUrl: "/portfolio-links/heiko/index.html"
-    }
-    ,
+    },
     {
         id: 9,
         title: "Template Drake",
         author: "Drake",
         fileName: "/zip-files/drake.zip",
         thumbnail: "/portfolio-links/drake-portfolio.png",
+        tags: ["template"],
+        description: "",
+        livePreviewUrl: "/portfolio-links/drake/index.html"
+    },
+    {
+        id: 10,
+        title: "Template Ovro",
+        author: "Ovro",
+        fileName: "/zip-files/ovro.zip",
+        thumbnail: "/portfolio-links/ovro-portfolio.png",
         tags: ["Grid", "Typography", "Clean"],
-        description: "A typography-focused portfolio with minimalist design principles and elegant transitions.",
+        description: "",
         livePreviewUrl: "/portfolio-links/drake/index.html"
     }
 ];

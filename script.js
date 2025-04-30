@@ -31,6 +31,16 @@ const portfolios = [
         livePreviewUrl: "/tamal/index.html"
     },
     {
+        id: 6,
+        title: "Ujjal's Portfolio",
+        author: "Ujjal",
+        fileName: "ujjal-portfolio.zip",
+        thumbnail: "ujjal-portfolio.png",
+        tags: ["JavaScript", "Clean", "Minimal"],
+        description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
+        livePreviewUrl: "/ujjal/index.html"
+    },
+    {
         id: 3,
         title: "Suman Das Portfolio",
         author: "Suman Das",

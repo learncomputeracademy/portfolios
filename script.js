@@ -1,8 +1,18 @@
 // Portfolio data
 const portfolios = [
     {
+        id: 5,
+        title: "Ratnadeep's Portfolio",
+        author: "Ratnadeep",
+        fileName: "ratnadeep-portfolio.zip",
+        thumbnail: "ratnadeep-portfolio.png",
+        tags: ["Motion", "Creative"],
+        description: "A vibrant portfolio showcasing creative UI/UX design work with smooth animations and interactive elements.",
+        livePreviewUrl: "/ratnadeep/index.html"
+    },
+    {
         id: 1,
-        title: "Monish Lca",
+        title: "Monish's Portfolio",
         author: "Monish",
         fileName: "monishlca2022.zip",
         thumbnail: "monish-portfolio.png",

@@ -1,14 +1,28 @@
 // Portfolio data
 const portfolios = [
     {
+        id: 12,
+        title: "Starter Portfolio",
+        author: "LCA",
+        fileName: "/zip-files/default.zip",
+        thumbnail: "/portfolio-links/default.png",
+        tags: ["default"],
+        description: "Default to save all portfolio items",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/default/index.html" }
+        ]
+    },
+    {
         id: 5,
         title: "Ratnadeep's Portfolio",
         author: "Ratnadeep",
         fileName: "/zip-files/ratnadeep-portfolio.zip",
         thumbnail: "/portfolio-links/ratnadeep-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/ratnadeep/index.html"
+        description: "A clean and modern portfolio showcasing Ratnadeep's work and skills.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/ratnadeep/index.html" }
+        ]
     },
     {
         id: 1,
@@ -17,8 +31,10 @@ const portfolios = [
         fileName: "/zip-files/monishlca2022.zip",
         thumbnail: "/portfolio-links/monish-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/monish/index.html"
+        description: "Professional portfolio website highlighting Monish's skills and experience.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/monish/index.html" }
+        ]
     },
     {
         id: 2,
@@ -27,8 +43,10 @@ const portfolios = [
         fileName: "/zip-files/tamallca2022.zip",
         thumbnail: "/portfolio-links/tamal-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/tamal/index.html"
+        description: "Creative portfolio showcasing Tamal's design and development work.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/tamal/index.html" }
+        ]
     },
     {
         id: 6,
@@ -37,8 +55,10 @@ const portfolios = [
         fileName: "/zip-files/ujjal-portfolio.zip",
         thumbnail: "/portfolio-links/ujjal-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/ujjal/index.html"
+        description: "Minimalist portfolio highlighting Ujjal's projects and skills.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/ujjal/index.html" }
+        ]
     },
     {
         id: 7,
@@ -47,8 +67,10 @@ const portfolios = [
         fileName: "/zip-files/mafiurislam-portfolio.zip",
         thumbnail: "/portfolio-links/mafiur-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/mafiurislam/index.html"
+        description: "Interactive portfolio site showcasing Mafiur's creative work.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/mafiurislam/index.html" }
+        ]
     },
     {
         id: 3,
@@ -57,8 +79,10 @@ const portfolios = [
         fileName: "/zip-files/SumanDas_Portfolio-main.zip",
         thumbnail: "/portfolio-links/suman-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/sumandas/index.html"
+        description: "Portfolio website showcasing Suman's development projects and skills.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/sumandas/index.html" }
+        ]
     },
     {
         id: 4,
@@ -67,8 +91,10 @@ const portfolios = [
         fileName: "/zip-files/anupbanerjee-main.zip",
         thumbnail: "/portfolio-links/anup-portfolio.png",
         tags: ["student","portfolio"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/anupbanerjee/index.html"
+        description: "Professional portfolio website for Anup Banerjee.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/anupbanerjee/index.html" }
+        ]
     },
     {
         id: 8,
@@ -77,8 +103,10 @@ const portfolios = [
         fileName: "/zip-files/template-heiko.zip",
         thumbnail: "/portfolio-links/heiko-portfolio.png",
         tags: ["template"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/heiko/index.html"
+        description: "Clean and modern portfolio template with minimalist design.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/heiko/index.html" }
+        ]
     },
     {
         id: 9,
@@ -87,8 +115,10 @@ const portfolios = [
         fileName: "/zip-files/drake.zip",
         thumbnail: "/portfolio-links/drake-portfolio.png",
         tags: ["template"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/drake/index.html"
+        description: "Professional portfolio template with dark mode and modern design.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/drake/index.html" }
+        ]
     },
     {
         id: 10,
@@ -97,8 +127,29 @@ const portfolios = [
         fileName: "/zip-files/ovro.zip",
         thumbnail: "/portfolio-links/ovro-portfolio.png",
         tags: ["template"],
-        description: "",
-        livePreviewUrl: "/portfolio-links/ovro/index.html"
+        description: "Creative and unique portfolio template with interactive elements.",
+        livePreviewUrls: [
+            { name: "Open Website", url: "/portfolio-links/ovro/index.html" }
+        ]
+    },
+    {
+        id: 11,
+        title: "Template Gerold",
+        author: "Gerold",
+        fileName: "/zip-files/gerold.zip",
+        thumbnail: "/portfolio-links/gerold-portfolio.png",
+        tags: ["template"],
+        description: "Creative and unique portfolio template with interactive elements.",
+        livePreviewUrls: [
+            { name: "Verson 1", url: "/portfolio-links/gerold/index.html" },
+            { name: "Verson 2", url: "/portfolio-links/gerold/index-2.html" },
+            { name: "Verson 3", url: "/portfolio-links/gerold/index-3.html" },
+            { name: "Verson 4", url: "/portfolio-links/gerold/index-4.html" },
+            { name: "Verson 5", url: "/portfolio-links/gerold/index-5.html" },
+            { name: "Verson 6", url: "/portfolio-links/gerold/index-6.html" },
+            { name: "Verson 7", url: "/portfolio-links/gerold/index-7.html" },
+            { name: "Verson 8", url: "/portfolio-links/gerold/index-8.html" },
+        ]
     }
 ];
 
@@ -184,7 +235,7 @@ function renderPortfolios() {
                 <div class="list-info">
                     <h3>${portfolio.title}</h3>
                     <p class="author">by ${portfolio.author}</p>
-                    <div class="list-description">${portfolio.description.substring(0, 100)}...</div>
+                    <div class="list-description">${portfolio.description ? portfolio.description.substring(0, 100) + (portfolio.description.length > 100 ? '...' : '') : ''}</div>
                     <div class="card-tags">
                         ${portfolio.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                     </div>
@@ -293,7 +344,7 @@ function openPortfolioModal(portfolioId) {
     document.getElementById('modal-title').textContent = portfolio.title;
     document.getElementById('modal-image').src = portfolio.thumbnail;
     document.getElementById('modal-author').textContent = portfolio.author;
-    document.getElementById('modal-description').textContent = portfolio.description;
+    document.getElementById('modal-description').textContent = portfolio.description || '';
     
     // Set tags
     const tagsContainer = document.getElementById('modal-tags');
@@ -313,13 +364,95 @@ function openPortfolioModal(portfolioId) {
         downloadPortfolio(portfolio.fileName);
     });
     
-    // Set live preview link
+    // Generate preview links dropdown if multiple URLs exist
     const livePreviewLink = document.getElementById('modal-live-link');
-    livePreviewLink.href = portfolio.livePreviewUrl;
+    
+    // Clear previous event listeners to prevent duplicates
+    const newLivePreviewLink = livePreviewLink.cloneNode(true);
+    livePreviewLink.parentNode.replaceChild(newLivePreviewLink, livePreviewLink);
+    
+    // Update the preview links section
+    updatePreviewLinksSection(portfolio, newLivePreviewLink);
     
     // Open modal
     modal.classList.add('active');
     document.body.classList.add('modal-open');
+}
+
+// Update the preview links section in the modal
+function updatePreviewLinksSection(portfolio, mainLinkElement) {
+    // Find action container to add preview links
+    const actionsContainer = mainLinkElement.closest('.portfolio-actions');
+    
+    // Remove any existing preview links dropdown
+    const existingDropdown = actionsContainer.querySelector('.preview-links-dropdown');
+    if (existingDropdown) {
+        existingDropdown.remove();
+    }
+    
+    if (portfolio.livePreviewUrls && portfolio.livePreviewUrls.length > 0) {
+        // Set the main link to the first preview URL
+        mainLinkElement.href = portfolio.livePreviewUrls[0].url;
+        mainLinkElement.textContent = '';
+        mainLinkElement.innerHTML = `
+            <iconify-icon icon="solar:eye-bold" width="18" height="18"></iconify-icon>
+            ${portfolio.livePreviewUrls.length === 1 ? 'Live Preview' : portfolio.livePreviewUrls[0].name}
+        `;
+        
+        // Create dropdown for multiple links if needed
+        if (portfolio.livePreviewUrls.length > 1) {
+            const dropdownContainer = document.createElement('div');
+            dropdownContainer.className = 'preview-links-dropdown';
+            
+            const dropdownButton = document.createElement('button');
+            dropdownButton.className = 'btn secondary preview-dropdown-btn';
+            dropdownButton.innerHTML = `
+                <iconify-icon icon="solar:list-down-line-duotone" width="18" height="18"></iconify-icon>
+                More Views
+            `;
+            
+            const dropdownContent = document.createElement('div');
+            dropdownContent.className = 'preview-dropdown-content';
+            
+            // Skip first URL as it's already the main link
+            for (let i = 1; i < portfolio.livePreviewUrls.length; i++) {
+                const previewLink = document.createElement('a');
+                previewLink.href = portfolio.livePreviewUrls[i].url;
+                previewLink.textContent = portfolio.livePreviewUrls[i].name;
+                previewLink.target = '_blank';
+                dropdownContent.appendChild(previewLink);
+            }
+            
+            dropdownContainer.appendChild(dropdownButton);
+            dropdownContainer.appendChild(dropdownContent);
+            
+            // Add event listener to toggle dropdown
+            dropdownButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                dropdownContent.classList.toggle('show');
+            });
+            
+            // Close dropdown when clicking outside
+            window.addEventListener('click', (e) => {
+                if (!e.target.matches('.preview-dropdown-btn') && !e.target.closest('.preview-dropdown-btn')) {
+                    if (dropdownContent.classList.contains('show')) {
+                        dropdownContent.classList.remove('show');
+                    }
+                }
+            });
+            
+            // Insert the dropdown after the main link
+            actionsContainer.insertBefore(dropdownContainer, mainLinkElement.nextSibling);
+        }
+    } else {
+        // Fallback for portfolios without preview URLs
+        mainLinkElement.href = '#';
+        mainLinkElement.innerHTML = `
+            <iconify-icon icon="solar:eye-bold" width="18" height="18"></iconify-icon>
+            Preview Not Available
+        `;
+        mainLinkElement.classList.add('disabled');
+    }
 }
 
 // Download portfolio

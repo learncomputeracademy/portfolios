@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconify for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.1.0/iconify.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Enter Name Here</h1>
+            <p class="tagline">Creative Designer</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="category-nav">
+                <li class="active" data-category="all">All Work</li>
+                <li data-category="graphics">Graphic Design</li>
+                <li data-category="web">Website Design</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="portfolio-section">
+                <div class="subcategory-nav">
+                    <!-- Subcategories will be dynamically populated here -->
+                </div>
+                
+                <div class="gallery">
+                    <!-- Images will be dynamically populated here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Learn Computer Academy Design Portfolio</p>
+            <div class="social-icons">
+                <span class="iconify" data-icon="mdi:instagram"></span>
+                <span class="iconify" data-icon="mdi:dribbble"></span>
+                <span class="iconify" data-icon="mdi:behance"></span>
+                <span class="iconify" data-icon="mdi:linkedin"></span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox">&times;</span>
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

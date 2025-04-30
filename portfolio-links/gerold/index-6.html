@@ -1,0 +1,2073 @@
+<!DOCTYPE html>
+<html lang="en" class="dark overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerold 06 - Personal Portfolio Tailwind CSS Template</title>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
+  <link rel="stylesheet" href="assets/css/flaticon_gerold.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/backToTop.css" />
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/backToTop.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="font-sora dark:bg-dark-color relative">
+  <!-- Preloader Area Start -->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>L</span>
+        <span>o</span>
+        <span>a</span>
+        <span>d</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader Area End -->
+  <!-- theme controller -->
+  <div class="fixed top-[200px] lg:top-[300px] transition-all duration-300 right-[-50px] hover:right-0 z-4xl">
+    <button
+      class="theme-controller w-90px h-10 bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-l-full text-whiteColor px-10px flex items-center transition-all duration-300 font-sora">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-10px w-5 block dark:hidden" viewBox="0 0 512 512">
+        <path
+          d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+          fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+      </svg>
+      <span class="text-base block dark:hidden">Dark</span>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="hidden mr-10px w-5 dark:block" viewBox="0 0 512 512">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+          d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94">
+        </path>
+        <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+          stroke-width="32"></circle>
+      </svg>
+      <span class="text-base hidden dark:block">Light</span>
+    </button>
+  </div>
+  <!-- start: Back To Top -->
+  <div class="progress-wrap" id="scrollUp">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+
+  <!-- header area  -->
+  <header class="header-area header-absolute  header-6">
+    <div class=" relative py-3 lg:py-5">
+      <div class="px-15px xl:px-35px 2xl:px-65px">
+        <div class="flex flex-wrap justify-between items-center">
+          <!-- logo and contact email -->
+          <div class="max-w-205px lg:max-w-130px xl:max-w-205px w-full leading-1">
+            <ul class="flex items-center gap-x-15px xl:gap-x-35px leading-1">
+              <li class="leading-1">
+                <a href="index.html" class="logo">
+                  <img class="w-15 h-15 hidden dark:inline-block" src="assets/img/logo/logo.png" alt="" />
+                  <img class="w-15 h-15 inlin-block dark:hidden" src="assets/img/logo/logo-dark.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- main menu -->
+          <nav>
+            <ul
+              class="nav flex items-center gap-x-5  xl:gap-30px 2xl:gap-x-35px  lg:bg-cream-light-color lg:dark:bg-black-color lg:px-10 rounded-full">
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#services"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Services
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#portfolio"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Works
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#resume"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Resume
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#skills"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Skills
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#testimonials"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Testimonials
+                </a>
+              </li>
+
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#contact"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Contact
+                </a>
+              </li>
+              <!-- action btn -->
+              <li class=" hidden sm:block lg:hidden">
+                <a href="service-details.html"
+                  class="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full inline-flex gap-10px items-center leading-1 transition-all duration-300 group">
+                  Lets Talk <i
+                    class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i></a>
+              </li>
+              <!-- open mobile menu button -->
+              <li class="menu-bar lg:hidden">
+                <div class="menu-bar">
+                  <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- social button -->
+          <div class="hidden lg:block">
+            <a href="service-details.html"
+              class="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full inline-flex gap-10px items-center leading-1 transition-all duration-300 group">
+              Lets Talk <i
+                class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <!-- scale-y-0 transition-all duration-500 hover:scale-y-100 -->
+      <div
+        class="mobile-menu absolute left-0 top-full min-h-screen-90 w-full bg-seondary-color block origin-top-left lg:hidden">
+        <div class="container py-5">
+          <ul class="ml-4">
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#services">
+                Services
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- sticky header area  -->
+  <header class="header-area header-6  header-2 header-sticky ">
+    <div class=" relative py-3 lg:py-5">
+      <div class="px-15px xl:px-35px 2xl:px-65px">
+        <div class="flex flex-wrap justify-between items-center">
+          <!-- logo and contact email -->
+          <div class="max-w-205px lg:max-w-130px xl:max-w-205px w-full">
+            <ul class="flex items-center gap-x-15px xl:gap-x-35px">
+              <li class="leading-1">
+                <a href="index.html" class="logo">
+                  <img class="w-15 h-15 hidden dark:inline-block" src="assets/img/logo/logo.png" alt="" />
+                  <img class="w-15 h-15 inlin-block dark:hidden" src="assets/img/logo/logo-dark.png" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- main menu -->
+          <nav>
+            <ul
+              class="nav flex items-center gap-x-5  xl:gap-30px 2xl:gap-x-35px  lg:bg-cream-light-color lg:dark:bg-black-color lg:px-10 rounded-full">
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#services"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Services
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#portfolio"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Works
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#resume"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Resume
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#skills"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Skills
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#testimonials"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Testimonials
+                </a>
+              </li>
+
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#contact"
+                  class="text-size-15 font-medium text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color capitalize py-10px md:py-14px lg:py-14px 2xl:py-14px relative z-0">Contact
+                </a>
+              </li>
+              <!-- action btn -->
+              <li class="menu-bar hidden sm:block lg:hidden">
+                <a href="service-details.html"
+                  class="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full inline-flex gap-10px items-center leading-1 transition-all duration-300 group">
+                  Lets Talk <i
+                    class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i></a>
+              </li>
+              <!-- open mobile menu button -->
+              <li class="menu-bar lg:hidden">
+                <div class="menu-bar">
+                  <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- social button -->
+          <div class="hidden lg:block">
+            <a href="service-details.html"
+              class="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full inline-flex gap-10px items-center leading-1 transition-all duration-300 group">
+              Lets Talk <i
+                class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <!-- scale-y-0 transition-all duration-500 hover:scale-y-100 -->
+      <div
+        class="mobile-menu absolute left-0 top-full min-h-screen-90 w-full bg-seondary-color block origin-top-left lg:hidden">
+        <div class="container py-5">
+          <ul class="ml-4">
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#services">
+                Services
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <main class="main-wrapper">
+    <!-- hero banner  -->
+    <section
+      class="hero-section flex flex-col justify-center  relative z-0 pb-50px sm:pb-20 lg:pb-25px 2xl:pb-50px pt-160px md:pt-200px lg:pt-210px 2xl:pt-265px   overflow-hidden  after:absolute after:top-0 md:after:top-[-174px] after:right-[-24rem] md:after:right-[-22rem]  2xl:after:right-20 after:w-650px after:h-550px after:blur-[150px] after:rounded-50% after:bg-gradient-circle-2 after:-z-20 after:-translate-x-1/2 after:opacity-60 before:absolute before:bottom-0 md:before:bottom-[-174px] before:right-[-24rem] md:before:right-[-22rem]   before:w-650px before:h-550px before:blur-[150px] before:rounded-50% before:bg-gradient-circle-2 before:-z-20 before:-translate-x-1/2 before:opacity-60">
+      <div
+        class="absolute hidden dark:block top-0 left-0 w-full h-full bg-[url('../img/shapes/h6-hero-shapes.html')] bg-no-repeat bg-center bg-cover opacity-80 mix-blend-luminosity -z-10 ">
+      </div>
+
+      <div class="container-fluid mx-15px ">
+        <div
+          class="flex flex-wrap  justify-between mx-auto gap-35px md:gap-25px lg:gap-75px  xl:gap-85px z-1 w-full max-w-full lg:max-w-950px  xl:max-w-1145px 2xl:max-w-1335px 3xl:max-w-1445px pb-0 md:pb-20 lg:pb-30 xl:pb-20 3xl:pb-0  mb-0 md:pr-0  relative">
+          <div class="relative z-1 w-full max-w-433px lg:max-w-560px xl:max-w-750px 2xl:max-w-930px 3xl:max-w-1045px">
+            <h6 class="text-gray-color-2 leading-1.5 font-medium  mb-15px ">Hi ✌ There,</h6>
+            <h4
+              class="text-gray-color-2 text-xl md:text-size-25 lg:text-size-28  leading-1.5  font-semibold flex items-center gap-10px mb-5 lg:mb-30px">
+
+              This is <span class="text-primary-color dark:text-white-color  ">Gerold</span>
+            </h4>
+            <h1
+              class="text-size-45 sm:text-size-50 lg:text-size-70 xl:text-size-85 2xl:text-size-120 3xl:text-size-145 bg-gradient-text-light dark:bg-gradient-text bg-clip-text text-transparent font-semibold uppercase  leading-1 lg:leading-1 tracking-[-0.03em]">
+              Building <br>
+              Your unique <br>
+              <span
+                class="mr-0  w-full max-w-100px h-45px sm:max-w-120px sm:h-50px md:max-w-130px lg:max-w-165px lg:h-70px  2xl:max-w-230px 2xl:h-115px inline-block relative  object-cover rounded-[150px] border-2 border-primary-color dark:border-white-color overflow-hidden transition-all duration-500 ease-in-out group"><img
+                  src="assets/img/hero/h6-hero-1.png"
+                  class="transform w-full scale-100 rounded-[150px] h-full object-cover transition-all duration-500 ease-in-out relative group-hover:scale-110 "
+                  alt="Images"></span> content
+            </h1>
+
+
+
+          </div>
+          <div class="md:flex-shrink-0">
+            <div
+              class=" items-center  w-full max-w-full sm:max-w-280px lg:max-w-310px  mr-auto md:ml-auto md:mr-0  mt-0 md:-mt-30px 2xl:-mt-20  p-30px sm:px-15px lg:px-30px rounded-10px bg-cream-light-color dark:bg-black-color">
+              <div
+                class="  w-full max-w-345px sm:max-w-200px lg:max-w-250px  h-100px mb-30px  mx-auto relative  object-cover rounded-[150px] border-2 border-primary-color dark:border-white-color overflow-hidden transition-all duration-500 ease-in-out group">
+                <img src="assets/img/hero/h6-hero-2.png"
+                  class="transform w-full scale-100 rounded-[150px] h-full object-cover transition-all duration-500 ease-in-out relative group-hover:scale-110 "
+                  alt="Images">
+              </div>
+              <p class="text-seondary-color dark:text-gray-color-2 leading-1.5 font-medium  mb-20 ">I'm an award winning
+                product designer specialized in financial products.</p>
+              <div>
+                <a href="#contact"
+                  class="text-seondary-color dark:text-white-color text-size-15 font-bold leading-1.5 transition-all duration-300 group flex gap-x-15px items-center justify-between  pb-5px relative after:absolute after:block after:h-px after:min-h-[1px] after:right-0 after:bottom-0 after:left-0 after:bg-seondary-color dark:after:bg-white-color after:will-change-transform hover:after:animate-hover-underline">Hire
+                  me!
+
+                  <span class="relative overflow-hidden -rotate-45">
+                    <i
+                      class="fa-regular fa-arrow-right group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                    <i
+                      class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover:-translate-x-0 transition-all duration-500"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="group_overly">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- scroll -->
+      <div class="hero_scroll hidden md:block">
+        <a class="down" href="#scroll-hero"><span><i class="fa-regular fa-arrow-right"></i></span>Scroll Down
+        </a>
+      </div>
+
+    </section>
+
+    <!-- start: Brand Marque Area -->
+    <section class=" overflow-x-hidden">
+      <div class="tj-roll-section ">
+        <div
+          class=" bg-cream-light-color dark:bg-black-color relative z-0 after:absolute after:left-0 after:top-0 after:w-full after:h-full after:z-1 after:bg-cream-light-color dark:after:bg-black-color after:mask-fade-horizontal">
+          <div class="tj-marquee tj-marquee--2 swiper py-5 md:py-25px xl:py-30px 2xl:py-60px ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img1.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-1.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img2.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-2.png"
+                    alt="Brand" />
+
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img3.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-3.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img4.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-4.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img5.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-5.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img6.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-6.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img7.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-7.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+              <div class="swiper-slide max-w-125px sm:max-w-140px">
+                <div class="max-w-100px md:max-w-full">
+                  <img class=" w-full hidden dark:inline-block  " src="assets/img/roll/roll-img8.png" alt="Brand" />
+                  <img class=" w-full inline-block  dark:hidden  " src="assets/img/brand/brand-dark-8.png"
+                    alt="Brand" />
+
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- about area -->
+    <section id="about">
+      <div class=" py-60px md:py-20 lg:py-30 overflow-x-hidden">
+        <div class="container">
+          <!-- section heading -->
+
+          <div class="flex flex-wrap items-center justify-between gap-x-30px gap-y-50px">
+            <div
+              class="max-w-300px sm:max-w-430px md:max-w-550px lg:max-w-310px xl:max-w-475px 2xl:max-w-550px mx-auto lg:mx-0  wow fadeInLeft"
+              data-wow-delay=".3s">
+              <div
+                class="  rounded-15px relative  z-0 after:absolute after:-left-0.5 after:-top-0.5 after:-right-0.5 after:-bottom-0.5  after:rounded-15px after:bg-gradient-text after:-z-1 mb-0.5">
+                <img src="assets/img/about/h6-about.jpg" alt="" class="rounded-15px">
+              </div>
+            </div>
+            <div>
+              <div class="w-full max-w-620px ml-auto  ">
+                <div class="mb-25px  ">
+                  <span
+                    class="text-xs px-3 py-5px rounded-full border border-border-color-2  uppercase text-primary-color  font-semibold tracking-0.02em relative inline-block  ">About
+                    Me</span>
+                </div>
+                <h2
+                  class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color mb-35px lg:mb-5 xl:mb-35px   max-w-580px w-full tj-text-invert">
+                  Turning Creative Idea
+                  Into Content That
+                  Drives Results
+                </h2>
+                <div
+                  class="flex justify-between sm:items-end flex-col sm:flex-row-reverse gap-y-25px  w-full max-w-580px">
+                  <div
+                    class="flex-shrink-0 sm:rotate-[-90deg] w-full max-w-260px  border border-x-0 border-body-color dark:border-bg-color-2 sm:mb-70px xl:mb-65px 2xl:mb-45px">
+                    <div
+                      class="funfact-item   flex flex-wrap sm:flex-nowrap flex-col justify-center  bg-transparent  w-full pt-2.5 md:pt-2 xl:pt-1.5">
+
+                      <div
+                        class="number text-6xl sm:text-size-75 xl:text-size-95 2xl:text-size-110 text-primary-color  font-bold leading-1 ">
+                        <span class="odometer  tracking-[0.04em]" data-count="12">0</span>+
+                      </div>
+                      <div class="text text-seondary-color dark:text-gray-color-2  text-end -translate-y-[18px]">Years
+                        of
+                        Experience</div>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-seondary-color dark:text-gray-color-2 leading-1.5   mb-5 max-w-315px  wow fadeInUp"
+                      data-wow-delay=".3s">I break down
+                      complex user
+                      experience problems the create integrity focused to solutions that’s connect billions of people. I
+                      break the down.</p>
+                    <div class="tj-service-5-accordion-list-item mb-22px wow fadeInUp" data-wow-delay=".3s">
+                      <span
+                        class="text-base leading-2 sm:leading-2 font-semibold text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-5px before:h-5px dark:before:bg-white-color ">Brand
+                        Stories</span>
+                      <span
+                        class="text-base leading-2 sm:leading-2 font-semibold text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-5px before:h-5px dark:before:bg-white-color ">
+                        Longform Content</span>
+                      <span
+                        class="text-base leading-2 sm:leading-2 font-semibold text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-5px before:h-5px dark:before:bg-white-color ">Social
+                        Media</span>
+                    </div>
+                    <div class="mt-35px xl:mt-50px wow fadeInUp" data-wow-delay=".3s"> <a href="service-details.html"
+                        class="text-size-15 font-bold text-white-color capitalize py-17px px-35px bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full inline-flex gap-10px items-center leading-1 transition-all duration-300 group">
+                        Learn More <i
+                          class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i></a>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services area -->
+    <section id="services">
+      <div class="bg-cream-light-color dark:bg-black-color py-60px md:py-20 lg:py-30 overflow-x-hidden">
+        <div class="container">
+          <!-- section heading -->
+          <div class="mb-10 md:mb-50px xl:mb-60px text-center flex flex-col items-center ">
+            <div class="mb-25px  ">
+
+              <span
+                class="text-xs px-3 py-5px rounded-full border  border-border-color-2 text-primary-color  font-semibold tracking-0.02em relative inline-block uppercase">my
+                services</span>
+            </div>
+            <h2
+              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color    max-w-580px w-full tj-text-invert">
+              Here's how I can help!
+            </h2>
+
+
+          </div>
+          <!-- services -->
+          <div>
+            <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-30px">
+
+              <div
+                class="rounded-15px relative overflow-hidden p-30px  bg-white-color dark:bg-bg-color-6 backdrop-blur-[40px]  group transition-all duration-500 wow fadeInUp"
+                data-wow-delay=".3s">
+                <div class="mb-35px ">
+
+                  <span
+                    class="w-16 h-16 bg-primary-color rounded-100% inline-flex justify-center items-center leading-1">
+                    <i
+                      class="flaticon-design text-size-34 text-white-color  leading-1 inline-flex transition-all duration-500 group-hover:scale-x-[-1]"></i>
+                  </span>
+
+                </div>
+                <h3
+                  class="tj-service-5-accordion-list-title text-xl sm:text-size-22 md:text-3xl font-bold mb-15px  leading-1.2 md:leading-1.2 tracking-0.02em  transition-all duration-300 ease-in relative  ">
+                  <a href="service-details.html"
+                    class="text-seondary-color dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">
+                    Web Development</a>
+                </h3>
+                <p
+                  class="tj-service-5-accordion-list-paragraph text-base xl:text-size-15 2xl:text-base text-primary-color-light dark:text-body-color-3 leading-1.5 2xl:leading-1.5 mb-4 lg:mb-5">
+                  Conducting qualitative and quantitative research to understand user needs, behaviors, and pain
+                  points. Utilizing methods such as surveys, interviews, and usability testing to actionable insights.
+                </p>
+                <div class="tj-service-5-accordion-list-item  ">
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">UI/UX
+                    Design</span>
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">Research</span>
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">Mobile
+                    & Web App</span>
+                </div>
+              </div>
+              <div
+                class="rounded-15px relative overflow-hidden p-30px  bg-white-color dark:bg-bg-color-6 backdrop-blur-[40px]  group transition-all duration-500  wow fadeInUp"
+                data-wow-delay=".5s">
+                <div class="mb-35px ">
+
+                  <span
+                    class="w-16 h-16 bg-primary-color rounded-100% inline-flex justify-center items-center leading-1">
+                    <i
+                      class="flaticon-ux-design  text-size-34 text-white-color  leading-1 inline-flex transition-all duration-500 group-hover:scale-x-[-1]"></i>
+                  </span>
+
+                </div>
+                <h3
+                  class="tj-service-5-accordion-list-title text-xl sm:text-size-22 md:text-3xl font-bold mb-15px  leading-1.2 md:leading-1.2 tracking-0.02em  transition-all duration-300 ease-in relative  ">
+                  <a href="service-details.html"
+                    class="text-seondary-color dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">
+                    UI/UX Design</a>
+
+                </h3>
+                <p
+                  class="tj-service-5-accordion-list-paragraph text-base xl:text-size-15 2xl:text-base text-primary-color-light dark:text-body-color-3 leading-1.5 2xl:leading-1.5 mb-4 lg:mb-5">
+                  Conducting qualitative and quantitative research to understand user needs, behaviors, and pain
+                  points. Utilizing methods such as surveys, interviews, and usability testing to actionable insights.
+                </p>
+                <div class="tj-service-5-accordion-list-item  ">
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">UI/UX
+                    Design</span>
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">Research</span>
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">Mobile
+                    & Web App</span>
+                </div>
+              </div>
+              <div
+                class="rounded-15px relative overflow-hidden p-30px  bg-white-color dark:bg-bg-color-6 backdrop-blur-[40px]  group transition-all duration-500  wow fadeInUp"
+                data-wow-delay=".7s">
+                <div class="mb-35px ">
+
+                  <span
+                    class="w-16 h-16 bg-primary-color rounded-100% inline-flex justify-center items-center leading-1">
+                    <i
+                      class="flaticon-web-design text-size-34 text-white-color  leading-1 inline-flex transition-all duration-500 group-hover:scale-x-[-1]"></i>
+                  </span>
+
+                </div>
+                <h3
+                  class="tj-service-5-accordion-list-title text-xl sm:text-size-22 md:text-3xl font-bold mb-15px  leading-1.2 md:leading-1.2 tracking-0.02em  transition-all duration-300 ease-in relative  ">
+                  <a href="service-details.html"
+                    class="text-seondary-color dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">
+                    Content Writing</a>
+
+                </h3>
+                <p
+                  class="tj-service-5-accordion-list-paragraph text-base xl:text-size-15 2xl:text-base text-primary-color-light dark:text-body-color-3 leading-1.5 2xl:leading-1.5 mb-4 lg:mb-5">
+                  Conducting qualitative and quantitative research to understand user needs, behaviors, and pain
+                  points. Utilizing methods such as surveys, interviews, and usability testing to actionable insights.
+                </p>
+                <div class="tj-service-5-accordion-list-item  ">
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">UI/UX
+                    Design</span>
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">Research</span>
+                  <span
+                    class="text-base leading-2 sm:leading-2 font-medium text-seondary-color dark:text-white-color block relative pl-3 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-1  before:bg-seondary-color dark:before:bg-white-color ">Mobile
+                    & Web App</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mt-5 lg:mt-30px wow fadeInUp" data-wow-delay=".3s">
+              <a href="service-details.html"
+                class=" font-bold text-white-color capitalize w-full py-22px md:py-[28px] px-3 bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-15px flex gap-10px justify-center items-center leading-1 transition-all duration-300 group">
+
+                Let’s Contact with Me <i
+                  class="fa-regular fa-arrow-right transition-all duration-400 -rotate-45 group-hover:rotate-0"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- portfolio area -->
+    <section id="portfolio">
+      <div class="  py-60px md:py-20 lg:py-30  px-15px">
+        <div>
+          <!-- section heading -->
+          <div class="mb-10 md:mb-50px xl:mb-60px ">
+            <h1
+              class="text-size-45 sm:text-size-75 md:text-size-100 lg:text-size-120 xl:text-size-150 2xl:text-size-175 0 3xl:text-size-210 bg-gradient-text-light dark:bg-gradient-text bg-clip-text text-transparent font-semibold uppercase  leading-1 lg:leading-1 tracking-[-0.03em] text-center wow fadeInUp"
+              data-wow-delay=".3s">
+              Highlights
+            </h1>
+
+            <div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class=" mx-auto max-w-1210px w-full  ">
+
+
+          <div class=" sticky top-[100px] overflow-hidden    rounded-20px mb-30px  md:mb-50px last:mb-0   ">
+            <div
+              class=" w-full  overflow-hidden  max-h-[640px] object-cover object-[center_top] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[165px] md:before:h-[250px] lg:before:h-[350px] xl:before:h-[470px] before:bg-gradient-primary-9 before:z-1">
+              <img src="assets/img/portfolio/portfolio-6-1.jpg" class="w-full" alt="" />
+            </div>
+            <div class="absolute top-[15px] right-[15px] sm:top-[30px] sm:right-[30px] z-[2] ">
+              <a href="portfolio-details.html"
+                class=" text-size-25px w-50px h-50px sm:w-65px sm:h-65px md:w-20 md:h-20 lg:w-100px lg:h-100px text-white-color group-hover:text-white-color   bg-transparent hover:bg-primary-color  border border-body-color dark:border-white-color hover:border-primary-color dark:hover:border-primary-color  rounded-100% leading-1 transition-all duration-300  inline-flex justify-center items-center group">
+                <span class="relative overflow-hidden -rotate-45">
+                  <i
+                    class="fa-regular fa-arrow-right  text-xl group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                  <i
+                    class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% text-xl group-hover:-translate-x-0 transition-all duration-500"></i>
+                </span>
+              </a>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full  p-15px md:p-30px flex flex-wrap lg:flex-nowrap items-end gap-15px md:gap-5  justify-between z-[2] ">
+              <div>
+                <h6 class="text-primary-color mb-10px md:mb-5">Content</h6>
+                <h4
+                  class="text-size-25 sm:text-3xl md:text-size-35 lg:text-size-40 xl:text-size-44 font-semibold  leading-1.2 sm:leading-1.2 -tracking-0.02em inline-block   max-w-580px w-full">
+                  <a href="portfolio-details.html"
+                    class="text-white-color hover:text-primary-color dark:hover:text-primary-color transition-all duration-[.8s] inline  relative z-0  bg-[0_100%] [background-size:0_2px] bg-no-repeat bg-gradient-primary-3 hover:[background-size:100%_2px]">
+                    Lead Generation <br> Landing.
+                  </a>
+                </h4>
+
+
+              </div>
+              <ul class="flex items-center gap-10px md:gap-15px">
+                <li
+                  class="text-gray-color-2  text-sm md:text-base leading-1 md:leading-1 pr-10px md:pr-15px last:pr-0 last:md-pr-0 border-r-2 border-gray-color-2 last:border-r-0">
+                  Client:
+                  <span class="font-semibold text-white-color "> Techlobby</span>
+                </li>
+                <li
+                  class="text-gray-color-2  text-sm md:text-base leading-1 md:leading-1 pr-10px md:pr-15px last:pr-0 last:md-pr-0 border-r-2 border-gray-color-2 last:border-r-0">
+                  Time:
+                  <span class="font-semibold text-white-color "> 2024</span>
+                </li>
+
+
+
+
+              </ul>
+
+            </div>
+
+
+          </div>
+          <div class=" sticky top-[100px] overflow-hidden    rounded-20px mb-30px  md:mb-50px last:mb-0">
+            <div
+              class=" w-full  overflow-hidden  max-h-[640px] object-cover object-[center_top] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[165px] md:before:h-[250px] lg:before:h-[350px] xl:before:h-[470px] before:bg-gradient-primary-9  before:z-1">
+              <img src="assets/img/portfolio/portfolio-6-2.jpg" class="w-full" alt="" />
+            </div>
+            <div class="absolute top-[15px] right-[15px] sm:top-[30px] sm:right-[30px] z-[2] ">
+              <a href="portfolio-details.html"
+                class=" text-size-25px w-50px h-50px sm:w-65px sm:h-65px md:w-20 md:h-20 lg:w-100px lg:h-100px text-white-color group-hover:text-white-color   bg-transparent hover:bg-primary-color  border border-body-color dark:border-white-color hover:border-primary-color dark:hover:border-primary-color  rounded-100% leading-1 transition-all duration-300  inline-flex justify-center items-center group">
+                <span class="relative overflow-hidden -rotate-45">
+                  <i
+                    class="fa-regular fa-arrow-right  text-xl group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                  <i
+                    class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% text-xl group-hover:-translate-x-0 transition-all duration-500"></i>
+                </span>
+              </a>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full  p-15px md:p-30px flex flex-wrap lg:flex-nowrap items-end gap-15px md:gap-5  justify-between z-[2] ">
+              <div>
+                <h6 class="text-primary-color mb-10px md:mb-5">Content</h6>
+                <h4
+                  class="text-size-25 sm:text-3xl md:text-size-35 lg:text-size-40 xl:text-size-44 font-semibold  leading-1.2 sm:leading-1.2 -tracking-0.02em inline-block   max-w-580px w-full">
+                  <a href="portfolio-details.html"
+                    class="text-white-color hover:text-primary-color dark:hover:text-primary-color transition-all duration-[.8s] inline  relative z-0  bg-[0_100%] [background-size:0_2px] bg-no-repeat bg-gradient-primary-3 hover:[background-size:100%_2px]">
+                    E-commerce Site <br> Descriptions
+                  </a>
+                </h4>
+
+
+              </div>
+              <ul class="flex items-center gap-10px md:gap-15px">
+                <li
+                  class="text-gray-color-2  text-sm md:text-base leading-1 md:leading-1 pr-10px md:pr-15px last:pr-0 last:md-pr-0 border-r-2 border-gray-color-2 last:border-r-0">
+                  Client:
+                  <span class="font-semibold text-white-color "> Techlobby</span>
+                </li>
+                <li
+                  class="text-gray-color-2  text-sm md:text-base leading-1 md:leading-1 pr-10px md:pr-15px last:pr-0 last:md-pr-0 border-r-2 border-gray-color-2 last:border-r-0">
+                  Time:
+                  <span class="font-semibold text-white-color "> 2024</span>
+                </li>
+
+
+
+
+              </ul>
+
+            </div>
+
+
+          </div>
+          <div class="sticky top-[100px]  overflow-hidden   rounded-20p mb-30pxxemd: mb-50px last:mb-0">
+            <div
+              class=" w-full  overflow-hidden  max-h-[640px] object-cover object-[center_top] before:absolute before:bottom-0 before:left-0 before:w-full before:h-[165px] md:before:h-[250px] lg:before:h-[350px] xl:before:h-[470px] before:bg-gradient-primary-9  before:z-1">
+              <img src="assets/img/portfolio/portfolio-6-3.jpg" class="w-full" alt="" />
+            </div>
+            <div class="absolute top-[15px] right-[15px] sm:top-[30px] sm:right-[30px] z-[2] ">
+              <a href="portfolio-details.html"
+                class=" text-size-25px w-50px h-50px sm:w-65px sm:h-65px md:w-20 md:h-20 lg:w-100px lg:h-100px text-white-color group-hover:text-white-color   bg-transparent hover:bg-primary-color  border border-body-color dark:border-white-color hover:border-primary-color dark:hover:border-primary-color  rounded-100% leading-1 transition-all duration-300  inline-flex justify-center items-center group">
+                <span class="relative overflow-hidden -rotate-45">
+                  <i
+                    class="fa-regular fa-arrow-right  text-xl group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                  <i
+                    class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% text-xl group-hover:-translate-x-0 transition-all duration-500"></i>
+                </span>
+              </a>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full  p-15px md:p-30px flex flex-wrap lg:flex-nowrap items-end gap-15px md:gap-5  justify-between z-[2] ">
+              <div>
+                <h6 class="text-primary-color mb-10px md:mb-5">Content</h6>
+                <h4
+                  class="text-size-25 sm:text-3xl md:text-size-35 lg:text-size-40 xl:text-size-44 font-semibold  leading-1.2 sm:leading-1.2 -tracking-0.02em inline-block   max-w-580px w-full">
+                  <a href="portfolio-details.html"
+                    class="text-white-color hover:text-primary-color dark:hover:text-primary-color transition-all duration-[.8s] inline  relative z-0  bg-[0_100%] [background-size:0_2px] bg-no-repeat bg-gradient-primary-3 hover:[background-size:100%_2px]">
+                    Email Marketing <br>Campaign
+                  </a>
+                </h4>
+
+
+              </div>
+              <ul class="flex items-center gap-10px md:gap-15px">
+                <li
+                  class="text-gray-color-2  text-sm md:text-base leading-1 md:leading-1 pr-10px md:pr-15px last:pr-0 last:md-pr-0 border-r-2 border-gray-color-2 last:border-r-0">
+                  Client:
+                  <span class="font-semibold text-white-color "> Techlobby</span>
+                </li>
+                <li
+                  class="text-gray-color-2  text-sm md:text-base leading-1 md:leading-1 pr-10px md:pr-15px last:pr-0 last:md-pr-0 border-r-2 border-gray-color-2 last:border-r-0">
+                  Time:
+                  <span class="font-semibold text-white-color "> 2024</span>
+                </li>
+
+
+
+
+              </ul>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- experience area -->
+    <section id="resume">
+      <div
+        class=" py-60px md:py-20 lg:py-30 relative after:absolute after:top-0 after:left-full  after:-translate-x-1/2 after:-translate-y-1/2 after:right-5 after:w-650px after:h-550px after:blur-[150px] after:rounded-50% after:bg-gradient-circle-2 after:-z-1   after:opacity-60 overflow-hidden">
+
+        <div class="tj-roll-section ">
+          <div class="">
+            <div class="tj-marquee tj-marquee--1 swiper pb-10 md:pb-20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="roll-icon w-35px sm:[w-45px] md:w-[55px] lg:w-70px mx-30px lg:mx-60px">
+                    <img class="portal-icon w-full animate-animate-spin-reverse " src="assets/img/icons/star-6.svg"
+                      alt="Icon" />
+
+                  </div>
+                  <div class="roll-title">
+                    <h5
+                      class=" title text-size-50 sm:text-size-70 md:text-size-80 lg:text-size-100 xl:text-size-120 2xl:text-size-164 font-semibold uppercase bg-gradient-primary-10-light dark:bg-gradient-primary-10 text-transparent  bg-clip-text">
+                      MY RESUME
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+
+          <div class="flex flex-col lg:flex-row gap-35px">
+            <div class="w-full max-w-420px lg:max-w-365px xl:max-w-420px">
+              <div>
+                <div class="mb-25px  ">
+                  <span
+                    class="text-xs px-3 py-5px rounded-full border border-seondary-color-3  uppercase text-primary-color  font-semibold tracking-0.02em relative inline-block">MY
+                    EXPERIENCES</span>
+                </div>
+                <h2
+                  class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color  max-w-580px w-full tj-text-invert">
+                  Let’s Explore My
+                  Experience.
+                </h2>
+                <div class="mt-30px md:mt-10 wow fadeInUp" data-wow-delay=".3s">
+                  <a href="#"
+                    class="text-size-15 font-medium text-white-color capitalize py-17px px-35px  bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-full leading-1  text-nowrap tracking-1px group inline-flex gap-x-10px items-center">Download
+                    CV
+                    <span class="relative overflow-hidden  ">
+                      <i
+                        class="flaticon-download ml-0.5 text-size-15 group-hover:translate-y-150% transition-all duration-500 inline-block"></i>
+                      <i
+                        class="flaticon-download ml-0.5 text-size-15 absolute left-0 top-0 -translate-y-150% group-hover:translate-y-0 transition-all duration-500"></i>
+                    </span>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="w-full max-w-785px ml-auto">
+              <div class="faq faq-2 faq-3  " data-wow-delay="0.3s">
+                <div class="w-full flex flex-col gap-25px" id="accordion">
+                  <!-- item 1 -->
+                  <div
+                    class=" accordion-single transition-all duration-300  bg-cream-light-color dark:bg-black-color  rounded-15px  py-4 px-15px md:px-30px md:py-23px wow fadeInUp "
+                    data-wow-delay=".3s">
+                    <button class="accordion-btn text-primary-color-light  dark:text-white-color flex  items-center w-full text-left text-lg md:text-xl  py-4  
+                         gap-5 before:content-['\2b'] before:!right-0   open ">
+
+                      <span class=" w-60px  flex-shrink-0"><img src="assets/img/icons/h5-resume-1.png" alt=""></span>
+                      <div>
+
+                        <span
+                          class="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-semibold">
+
+
+
+                          Senior Product Designer <br>VirtusLab
+
+                        </span>
+
+
+                      </div>
+
+
+                    </button>
+                    <div class="accordion-content open ">
+                      <div class="py-4   text-gray-color dark:text-white-color">
+                        <p class=" text-seondary-color dark:text-body-color-3 mb-8  transition-all duration-300">
+
+
+                          I'm winner of the world's most prestigious web designthat has more-or-less normal awards in
+                          the fields. I break down complex user the experience problems the create integrity focused to
+                          solutions that’s connect billions of people. To break the down.
+                        </p>
+                        <div class="flex items-center gap-10px"><i
+                            class="fa-thin fa-calendar-check  text-primary-color font-normal leading-1"></i>
+                          <p
+                            class="  text-seondary-color dark:text-body-color-3 group-hover:text-white-color transition-all duration-300 tracking-0.02em ">
+
+                            2022 - 2023
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- item 2 -->
+                  <div
+                    class=" accordion-single transition-all duration-300  bg-cream-light-color dark:bg-black-color  rounded-15px  py-4 px-15px md:px-30px md:py-23px wow fadeInUp "
+                    data-wow-delay=".4s">
+                    <button class="accordion-btn text-primary-color-light  dark:text-white-color flex  items-center w-full text-left text-lg md:text-xl  py-4  
+                         gap-5 before:content-['\2b'] before:!right-0">
+
+                      <span class=" w-60px  flex-shrink-0"><img src="assets/img/icons/h5-resume-2.png" alt=""></span>
+                      <div>
+
+                        <span
+                          class="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-semibold">
+
+
+
+
+                          Senior Product Designer <br>VirtusLab
+
+                        </span>
+
+
+                      </div>
+
+
+                    </button>
+                    <div class="accordion-content">
+                      <div class="py-4   text-gray-color dark:text-white-color">
+                        <p class=" text-seondary-color dark:text-body-color-3 mb-8  transition-all duration-300">
+
+
+                          I'm winner of the world's most prestigious web designthat has more-or-less normal awards in
+                          the fields. I break down complex user the experience problems the create integrity focused to
+                          solutions that’s connect billions of people. To break the down.
+                        </p>
+                        <div class="flex items-center gap-10px"><i
+                            class="fa-thin fa-calendar-check  text-primary-color font-normal leading-1"></i>
+                          <p
+                            class="  text-seondary-color dark:text-body-color-3 group-hover:text-white-color transition-all duration-300 tracking-0.02em ">
+
+                            2022 - 2023
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <!-- item 4 -->
+                  <div
+                    class=" accordion-single transition-all duration-300  bg-cream-light-color dark:bg-black-color  rounded-15px  py-4 px-15px md:px-30px md:py-23px wow fadeInUp "
+                    data-wow-delay=".5s">
+                    <button class="accordion-btn text-primary-color-light  dark:text-white-color flex  items-center w-full text-left text-lg md:text-xl  py-4  
+                         gap-5 before:content-['\2b'] before:!right-0">
+
+                      <span class=" w-60px  flex-shrink-0"><img src="assets/img/icons/h5-resume-3.png" alt=""></span>
+                      <div>
+
+                        <span
+                          class="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-semibold">
+
+
+
+                          Senior Product Designer <br>VirtusLab
+
+                        </span>
+
+
+                      </div>
+
+
+                    </button>
+                    <div class="accordion-content">
+                      <div class="py-4   text-gray-color dark:text-white-color">
+                        <p class=" text-seondary-color dark:text-body-color-3 mb-8  transition-all duration-300">
+
+
+                          I'm winner of the world's most prestigious web designthat has more-or-less normal awards in
+                          the fields. I break down complex user the experience problems the create integrity focused to
+                          solutions that’s connect billions of people. To break the down.
+                        </p>
+                        <div class="flex items-center gap-10px"><i
+                            class="fa-thin fa-calendar-check  text-primary-color font-normal leading-1"></i>
+                          <p
+                            class="  text-seondary-color dark:text-body-color-3 group-hover:text-white-color transition-all duration-300 tracking-0.02em ">
+
+                            2022 - 2023
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- item 4 -->
+                  <div
+                    class=" accordion-single transition-all duration-300  bg-cream-light-color dark:bg-black-color  rounded-15px  py-4 px-15px md:px-30px md:py-23px wow fadeInUp "
+                    data-wow-delay=".6s">
+                    <button class="accordion-btn text-primary-color-light  dark:text-white-color flex  items-center w-full text-left text-lg md:text-xl  py-4  
+                         gap-5 before:content-['\2b'] before:!right-0  ">
+
+                      <span class=" w-60px  flex-shrink-0"><img src="assets/img/icons/h5-resume-4.png" alt=""></span>
+                      <div>
+
+                        <span
+                          class="text-xl leading-1.2  text-seondary-color dark:text-white-color mb-15px uppercase font-semibold">
+
+
+
+                          Senior Product Designer <br>VirtusLab
+
+                        </span>
+
+
+                      </div>
+
+
+                    </button>
+                    <div class="accordion-content  ">
+                      <div class="py-4   text-gray-color dark:text-white-color">
+                        <p class=" text-seondary-color dark:text-body-color-3 mb-8  transition-all duration-300">
+
+
+                          I'm winner of the world's most prestigious web designthat has more-or-less normal awards in
+                          the fields. I break down complex user the experience problems the create integrity focused to
+                          solutions that’s connect billions of people. To break the down.
+                        </p>
+                        <div class="flex items-center gap-10px"><i
+                            class="fa-thin fa-calendar-check  text-primary-color font-normal leading-1"></i>
+                          <p
+                            class="  text-seondary-color dark:text-body-color-3 group-hover:text-white-color transition-all duration-300 tracking-0.02em ">
+
+                            2022 - 2023
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- testimonials area -->
+    <section id="testimonials">
+      <div class=" pb-60px md:pb-20 lg:pb-30 px-15px md:px-0  dark:bg-transparent">
+        <div class="container-fluid">
+          <div class="testimonials ">
+            <!-- section heading -->
+            <div class="container">
+              <div class="mb-10 md:mb-50px xl:mb-60px  flex flex-wrap justify-between items-center ">
+                <div>
+                  <div class="mb-25px  ">
+                    <span
+                      class="text-xs px-3 py-5px rounded-full border  border-border-color-2 text-primary-color  font-semibold tracking-0.02em relative inline-block uppercase ">CLIENT
+                      FEEDBACK</span>
+                  </div>
+                  <h2
+                    class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color  max-w-580px w-full tj-text-invert">
+                    Hear From My Dear prime
+                    Clients
+                  </h2>
+                </div>
+                <div>
+                  <div class="testimonial-navigation hidden lg:flex  flex-wrap gap-15px items-center ">
+                    <div
+                      class="testimonial-prev py-7px px-35px border-2 border-border-color dark:border-bg-color-2  rounded-50px  relative z-1 group before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-gradient-primary  before:rounded-50px before:opacity-0 before:invisible before:transition-all before:duration-[0.6s] before:-z-1 hover:before:opacity-100 hover:before:visible">
+                      <i
+                        class="fa-regular fa-arrow-left text-primary-color-light  group-hover:text-white-color dark:text-white-color"></i>
+                    </div>
+                    <div
+                      class="testimonial-next py-7px px-35px border-2 border-border-color dark:border-bg-color-2  group text-primary-color-light hover:text-white-color dark:text-white-color rounded-50px relative z-1 before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-gradient-primary  before:rounded-50px before:opacity-0 before:invisible before:transition-all before:duration-[0.6s] before:-z-1 hover:before:opacity-100 hover:before:visible">
+                      <i
+                        class="fa-regular fa-arrow-right text-primary-color-light  group-hover:text-white-color dark:text-white-color"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- testimonial single -->
+            <div class=" overflow-hidden wow fadeInUp" data-wow-delay=".3s">
+              <div class="testimonial-slider-6 swiper ">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div
+                      class="px-15px py-30px lg:p-30px lg:pt-10  bg-cream-light-color dark:bg-black-color transition-all duration-500 rounded-15px relative z-0 group">
+
+                      <div class="text-primary-color-light dark:text-white-color relative z-10">
+
+                        <div class="icon-box mb-5 md:mb-10 flex gap-1">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint6_linear_263_514)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300 ml-1">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint7_linear_263_515)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+
+                        <p
+                          class="text-primary-color-light dark:text-body-color-3 text-base sm:text-lg lg:text-xl leading-1.8 sm:leading-1.8 lg:leading-1.8 mb-30px ">
+                          Taylor is a professional Designer really my business by providing
+                          value to my business. Taylor is a professional Designer he really helps my
+                          business by providing value to my business. Taylor is a professional.
+                        </p>
+                        <div class="flex flex-col gap-15px pt-25px border-t-2 border-body-color dark:border-bg-color-2">
+                          <div class="flex gap-15px items-center">
+                            <div
+                              class="flex-shrink-0 w-77px h-77px  p-2 border-2 border-body-color dark:border-bg-color-2 rounded-full">
+                              <img class="full h-full object-cover rounded-full"
+                                src="assets/img/testimonials/user/h5-test-1.png" alt="">
+                            </div>
+                            <div>
+                              <h4
+                                class="text-xl md:text-size-22 lg:text-2xl leading-1.2 lg:leading-1.2 text-seondary-color dark:text-white-color mb-1.5">
+                                Brandon Fraser</h4>
+
+                              <p class="text-primary-color-light dark:text-body-color ">
+                                Senior Software, Cosmic Sport
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex-shrink-0 self-end">
+                            <div class="testimonial-rating pl-90px sm:pl-0">
+                              <div
+                                class="star-ratings relative text-base  tracking-[5px] sm:tracking-[8px] lg:tracking-[5px] xl:tracking-[8px] leading-none text-transparent stroke-[1px] drop-shadow-[1px_1px_0_var(--tj-theme-primary)]  stroke-primary-color mb-1.5 ">
+                                <div class="fill-ratings absolute top-0 left-0 z-1 overflow-hidden text-primary-color "
+                                  style="width: 86%">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                                <div class="empty-ratings block z-0 text-black-color">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="px-15px py-30px lg:p-30px lg:pt-10  bg-cream-light-color dark:bg-black-color transition-all duration-500 rounded-15px relative z-0 group">
+
+                      <div class="text-primary-color-light dark:text-white-color relative z-10">
+
+                        <div class="icon-box mb-5 md:mb-10 flex gap-1">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint6_linear_263_514)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300 ml-1">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint7_linear_263_515)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+
+                        <p
+                          class="text-primary-color-light dark:text-body-color-3 text-base sm:text-lg lg:text-xl leading-1.8 sm:leading-1.8 lg:leading-1.8 mb-30px ">
+                          Taylor is a professional Designer really my business by providing
+                          value to my business. Taylor is a professional Designer he really helps my
+                          business by providing value to my business. Taylor is a professional.
+                        </p>
+                        <div class="flex flex-col gap-15px pt-25px border-t-2 border-body-color dark:border-bg-color-2">
+                          <div class="flex gap-15px items-center">
+                            <div
+                              class="flex-shrink-0 w-77px h-77px  p-2 border-2 border-body-color dark:border-bg-color-2 rounded-full">
+                              <img class="full h-full object-cover rounded-full"
+                                src="assets/img/testimonials/user/h5-test-2.png" alt="">
+                            </div>
+                            <div>
+                              <h4
+                                class="text-xl md:text-size-22 lg:text-2xl leading-1.2 lg:leading-1.2 text-seondary-color dark:text-white-color mb-1.5">
+                                Tim Bailey</h4>
+
+                              <p class="text-primary-color-light dark:text-body-color ">
+                                Senior Software Dev, Cosmic Sport
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex-shrink-0 self-end">
+                            <div class="testimonial-rating pl-90px sm:pl-0">
+                              <div
+                                class="star-ratings relative text-base  tracking-[5px] sm:tracking-[8px] lg:tracking-[5px] xl:tracking-[8px] leading-none text-transparent stroke-[1px] drop-shadow-[1px_1px_0_var(--tj-theme-primary)]  stroke-primary-color mb-1.5 ">
+                                <div class="fill-ratings absolute top-0 left-0 z-1 overflow-hidden text-primary-color "
+                                  style="width: 76%">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                                <div class="empty-ratings block z-0 text-black-color">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="px-15px py-30px lg:p-30px lg:pt-10  bg-cream-light-color dark:bg-black-color transition-all duration-500 rounded-15px relative z-0 group">
+
+                      <div class="text-primary-color-light dark:text-white-color relative z-10">
+
+                        <div class="icon-box mb-5 md:mb-10 flex gap-1">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint6_linear_263_514)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300 ml-1">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint7_linear_263_515)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+
+                        <p
+                          class="text-primary-color-light dark:text-body-color-3 text-base sm:text-lg lg:text-xl leading-1.8 sm:leading-1.8 lg:leading-1.8 mb-30px ">
+                          Taylor is a professional Designer really my business by providing
+                          value to my business. Taylor is a professional Designer he really helps my
+                          business by providing value to my business. Taylor is a professional.
+                        </p>
+                        <div class="flex flex-col gap-15px pt-25px border-t-2 border-body-color dark:border-bg-color-2">
+                          <div class="flex gap-15px items-center">
+                            <div
+                              class="flex-shrink-0 w-77px h-77px  p-2 border-2 border-body-color dark:border-bg-color-2 rounded-full">
+                              <img class="full h-full object-cover rounded-full"
+                                src="assets/img/testimonials/user/h5-test-1.png" alt="">
+                            </div>
+                            <div>
+                              <h4
+                                class="text-xl md:text-size-22 lg:text-2xl leading-1.2 lg:leading-1.2 text-seondary-color dark:text-white-color mb-1.5">
+                                Brandon Fraser</h4>
+
+                              <p class="text-primary-color-light dark:text-body-color ">
+                                Senior Software, Cosmic Sport
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex-shrink-0 self-end">
+                            <div class="testimonial-rating pl-90px sm:pl-0">
+                              <div
+                                class="star-ratings relative text-base  tracking-[5px] sm:tracking-[8px] lg:tracking-[5px] xl:tracking-[8px] leading-none text-transparent stroke-[1px] drop-shadow-[1px_1px_0_var(--tj-theme-primary)]  stroke-primary-color mb-1.5 ">
+                                <div class="fill-ratings absolute top-0 left-0 z-1 overflow-hidden text-primary-color "
+                                  style="width: 86%">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                                <div class="empty-ratings block z-0 text-black-color">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="px-15px py-30px lg:p-30px lg:pt-10  bg-cream-light-color dark:bg-black-color transition-all duration-500 rounded-15px relative z-0 group">
+
+                      <div class="text-primary-color-light dark:text-white-color relative z-10">
+
+                        <div class="icon-box mb-5 md:mb-10 flex gap-1">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint6_linear_263_514)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300 ml-1">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint7_linear_263_515)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+
+                        <p
+                          class="text-primary-color-light dark:text-body-color-3 text-base sm:text-lg lg:text-xl leading-1.8 sm:leading-1.8 lg:leading-1.8 mb-30px ">
+                          Taylor is a professional Designer really my business by providing
+                          value to my business. Taylor is a professional Designer he really helps my
+                          business by providing value to my business. Taylor is a professional.
+                        </p>
+                        <div class="flex flex-col gap-15px pt-25px border-t-2 border-body-color dark:border-bg-color-2">
+                          <div class="flex gap-15px items-center">
+                            <div
+                              class="flex-shrink-0 w-77px h-77px  p-2 border-2 border-body-color dark:border-bg-color-2 rounded-full">
+                              <img class="full h-full object-cover rounded-full"
+                                src="assets/img/testimonials/user/h5-test-2.png" alt="">
+                            </div>
+                            <div>
+                              <h4
+                                class="text-xl md:text-size-22 lg:text-2xl leading-1.2 lg:leading-1.2 text-seondary-color dark:text-white-color mb-1.5">
+                                Tim Bailey</h4>
+
+                              <p class="text-primary-color-light dark:text-body-color ">
+                                Senior Software Dev, Cosmic Sport
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex-shrink-0 self-end">
+                            <div class="testimonial-rating pl-90px sm:pl-0">
+                              <div
+                                class="star-ratings relative text-base  tracking-[5px] sm:tracking-[8px] lg:tracking-[5px] xl:tracking-[8px] leading-none text-transparent stroke-[1px] drop-shadow-[1px_1px_0_var(--tj-theme-primary)]  stroke-primary-color mb-1.5 ">
+                                <div class="fill-ratings absolute top-0 left-0 z-1 overflow-hidden text-primary-color "
+                                  style="width: 76%">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                                <div class="empty-ratings block z-0 text-black-color">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="px-15px py-30px lg:p-30px lg:pt-10  bg-cream-light-color dark:bg-black-color transition-all duration-500 rounded-15px relative z-0 group">
+
+                      <div class="text-primary-color-light dark:text-white-color relative z-10">
+
+                        <div class="icon-box mb-5 md:mb-10 flex gap-1">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint6_linear_263_514)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300 ml-1">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint7_linear_263_515)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+
+                        <p
+                          class="text-primary-color-light dark:text-body-color-3 text-base sm:text-lg lg:text-xl leading-1.8 sm:leading-1.8 lg:leading-1.8 mb-30px ">
+                          Taylor is a professional Designer really my business by providing
+                          value to my business. Taylor is a professional Designer he really helps my
+                          business by providing value to my business. Taylor is a professional.
+                        </p>
+                        <div class="flex flex-col gap-15px pt-25px border-t-2 border-body-color dark:border-bg-color-2">
+                          <div class="flex gap-15px items-center">
+                            <div
+                              class="flex-shrink-0 w-77px h-77px  p-2 border-2 border-body-color dark:border-bg-color-2 rounded-full">
+                              <img class="full h-full object-cover rounded-full"
+                                src="assets/img/testimonials/user/h5-test-1.png" alt="">
+                            </div>
+                            <div>
+                              <h4
+                                class="text-xl md:text-size-22 lg:text-2xl leading-1.2 lg:leading-1.2 text-seondary-color dark:text-white-color mb-1.5">
+                                Brandon Fraser</h4>
+
+                              <p class="text-primary-color-light dark:text-body-color ">
+                                Senior Software, Cosmic Sport
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex-shrink-0 self-end">
+                            <div class="testimonial-rating pl-90px sm:pl-0">
+                              <div
+                                class="star-ratings relative text-base  tracking-[5px] sm:tracking-[8px] lg:tracking-[5px] xl:tracking-[8px] leading-none text-transparent stroke-[1px] drop-shadow-[1px_1px_0_var(--tj-theme-primary)]  stroke-primary-color mb-1.5 ">
+                                <div class="fill-ratings absolute top-0 left-0 z-1 overflow-hidden text-primary-color "
+                                  style="width: 86%">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                                <div class="empty-ratings block z-0 text-black-color">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="px-15px py-30px lg:p-30px lg:pt-10  bg-cream-light-color dark:bg-black-color transition-all duration-500 rounded-15px relative z-0 group">
+
+                      <div class="text-primary-color-light dark:text-white-color relative z-10">
+
+                        <div class="icon-box mb-5 md:mb-10 flex gap-1">
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint6_linear_263_514)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition-all duration-300 ml-1">
+                            <path
+                              d="M0.105431 2.18998C0.0301532 0.988687 1.02531 -0.00647222 2.2266 0.0688056L19.4961 1.15097C21.2148 1.25867 22.0029 3.34358 20.7852 4.56127L4.5979 20.7486C3.3802 21.9663 1.2953 21.1781 1.1876 19.4594L0.105431 2.18998Z"
+                              fill="url(#paint7_linear_263_515)" class="fill-primary-color"></path>
+                            <defs>
+                              <linearGradient x1="-0.0363755" y1="-0.0729998" x2="35.3333" y2="-0.0729991"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="1" stop-color="var(--tj-theme-primary)"></stop>
+                                <stop offset="1" stop-color="#140C1C" stop-opacity="0"></stop>
+                              </linearGradient>
+                            </defs>
+                          </svg>
+                        </div>
+
+                        <p
+                          class="text-primary-color-light dark:text-body-color-3 text-base sm:text-lg lg:text-xl leading-1.8 sm:leading-1.8 lg:leading-1.8 mb-30px ">
+                          Taylor is a professional Designer really my business by providing
+                          value to my business. Taylor is a professional Designer he really helps my
+                          business by providing value to my business. Taylor is a professional.
+                        </p>
+                        <div class="flex flex-col gap-15px pt-25px border-t-2 border-body-color dark:border-bg-color-2">
+                          <div class="flex gap-15px items-center">
+                            <div
+                              class="flex-shrink-0 w-77px h-77px  p-2 border-2 border-body-color dark:border-bg-color-2 rounded-full">
+                              <img class="full h-full object-cover rounded-full"
+                                src="assets/img/testimonials/user/h5-test-2.png" alt="">
+                            </div>
+                            <div>
+                              <h4
+                                class="text-xl md:text-size-22 lg:text-2xl leading-1.2 lg:leading-1.2 text-seondary-color dark:text-white-color mb-1.5">
+                                Tim Bailey</h4>
+
+                              <p class="text-primary-color-light dark:text-body-color ">
+                                Senior Software Dev, Cosmic Sport
+                              </p>
+                            </div>
+                          </div>
+                          <div class="flex-shrink-0 self-end">
+                            <div class="testimonial-rating pl-90px sm:pl-0">
+                              <div
+                                class="star-ratings relative text-base  tracking-[5px] sm:tracking-[8px] lg:tracking-[5px] xl:tracking-[8px] leading-none text-transparent stroke-[1px] drop-shadow-[1px_1px_0_var(--tj-theme-primary)]  stroke-primary-color mb-1.5 ">
+                                <div class="fill-ratings absolute top-0 left-0 z-1 overflow-hidden text-primary-color "
+                                  style="width: 76%">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                                <div class="empty-ratings block z-0 text-black-color">
+                                  <span class="inline-block">★★★★★</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+                <div class="testimonial-pagination mt-35px lg:mt-50px"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs area -->
+    <section>
+      <div id="blogs" class="pb-60px md:pb-20 lg:pb-100px xl:pb-30">
+        <div class="container">
+          <!-- section heading -->
+          <div class="mb-10 md:mb-50px xl:mb-60px text-center flex flex-col items-center ">
+            <div class="mb-25px  ">
+
+              <span
+                class="text-xs px-3 py-5px rounded-full border  border-border-color-2 text-primary-color  font-semibold tracking-0.02em relative inline-block uppercase">Blog
+                & Articles</span>
+            </div>
+            <h2
+              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 uppercase font-semibold  leading-1.2 -tracking-0.02em inline-block text-seondary-color dark:text-white-color    max-w-580px w-full tj-text-invert">
+              Read My Recent Blog
+            </h2>
+
+
+          </div>
+          <!-- blogs -->
+
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-6">
+            <div class="group relative flex flex-col items-center wow fadeInUp" data-wow-delay=".3s">
+              <div
+                class="p-15px bg-cream-light-color dark:bg-bg-color-6 backdrop-blur-[40px] rounded-10px relative overflow-hidden w-full">
+                <a href="blog-details.html" class="mb-4 rounded-10px overflow-hidden">
+                  <img src="assets/img/blog/1.jpg" alt=""
+                    class="group-hover:scale-110 transition-all duration-500" /></a>
+
+                <div class=" p-15px rounded-10px  transition-all duration-500">
+                  <div class=" w-full ">
+                    <div class="relative z-10">
+                      <ul class="flex gap-4 items-center mb-6">
+                        <li>
+                          <a href="#"
+                            class="text-size-15  px-2 py-1 rounded-50px leading-1  text-primary-color hover:text-white-color  bg-bg-color-7 hover:bg-primary-color bg-200 hover:bg-100">Optimization</a>
+                        </li>
+                        <li class="font-medium">
+
+                          <span
+                            class="text-primary-color-light  dark:text-body-color-2 pl-5  relative transition-all duration-500 before:w-1 before:h-1 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-primary-color-light  dark:before:bg-body-color-2 before:rounded-100% ">
+                            SEP 14, 2024</span>
+                        </li>
+                      </ul>
+                      <h4 class="mb-5">
+                        <a href="blog-details.html"
+                          class="text-primary-color-light dark:text-white-color dark:group-hover:text-white-color w-full  text-size-22 lg:text-2xl font-semibold  leading-1.4 lg:leading-1.4 uppercase bg-[0_100%] [background-size:0_1px] bg-no-repeat bg-gradient-primary-11 hover:[background-size:100%_1px] tracking-0.02em inline duration-500">
+
+                          COLOR LOVE | SHADES OF BLUE and Purple.
+
+                        </a>
+                      </h4>
+                      <a href="blog-details.html"
+                        class="text-primary-color-light dark:text-white-color  transition-all duration-300  inline-flex gap-x-2 items-center  bg-[0_100%] [background-size:0_1px] bg-no-repeat bg-gradient-primary-11 hover:[background-size:100%_1px] leading-1.5 group/nested ">Read
+                        More
+
+
+                        <span class="relative overflow-hidden -rotate-45">
+                          <i
+                            class="fa-regular fa-arrow-right group-hover/nested:translate-x-150% transition-all duration-500 inline-block"></i>
+                          <i
+                            class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover/nested:-translate-x-0 transition-all duration-500"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group relative flex flex-col items-center wow fadeInUp" data-wow-delay=".5s">
+              <div
+                class="p-15px bg-cream-light-color dark:bg-bg-color-6 backdrop-blur-[40px] rounded-10px relative overflow-hidden w-full">
+                <a href="blog-details.html" class="mb-4 rounded-10px overflow-hidden">
+                  <img src="assets/img/blog/2.jpg" alt=""
+                    class="group-hover:scale-110 transition-all duration-500" /></a>
+
+                <div class=" p-15px rounded-10px  transition-all duration-500">
+                  <div class=" w-full ">
+                    <div class="relative z-10">
+                      <ul class="flex gap-4 items-center mb-6">
+                        <li>
+                          <a href="#"
+                            class="text-size-15  px-2 py-1 rounded-50px leading-1  text-primary-color hover:text-white-color  bg-bg-color-7 hover:bg-primary-color bg-200 hover:bg-100">Design</a>
+                        </li>
+                        <li class="font-medium">
+
+                          <span
+                            class="text-primary-color-light  dark:text-body-color-2 pl-5  relative transition-all duration-500 before:w-1 before:h-1 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-primary-color-light  dark:before:bg-body-color-2 before:rounded-100% ">
+                            SEP 14, 2024</span>
+                        </li>
+                      </ul>
+                      <h4 class="mb-5">
+                        <a href="blog-details.html"
+                          class="text-primary-color-light dark:text-white-color dark:group-hover:text-white-color w-full  text-size-22 lg:text-2xl font-semibold  leading-1.4 lg:leading-1.4 uppercase bg-[0_100%] [background-size:0_1px] bg-no-repeat bg-gradient-primary-11 hover:[background-size:100%_1px] tracking-0.02em inline duration-500">
+
+                          The services provide for design
+
+                        </a>
+                      </h4>
+                      <a href="blog-details.html"
+                        class="text-primary-color-light dark:text-white-color  transition-all duration-300  inline-flex gap-x-2 items-center  bg-[0_100%] [background-size:0_1px] bg-no-repeat bg-gradient-primary-11 hover:[background-size:100%_1px] leading-1.5 group/nested ">Read
+                        More
+
+
+                        <span class="relative overflow-hidden -rotate-45">
+                          <i
+                            class="fa-regular fa-arrow-right group-hover/nested:translate-x-150% transition-all duration-500 inline-block"></i>
+                          <i
+                            class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover/nested:-translate-x-0 transition-all duration-500"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group relative flex flex-col items-center wow fadeInUp" data-wow-delay=".7s">
+              <div
+                class="p-15px bg-cream-light-color dark:bg-bg-color-6 backdrop-blur-[40px] rounded-10px relative overflow-hidden w-full">
+                <a href="blog-details.html" class="mb-4 rounded-10px overflow-hidden">
+                  <img src="assets/img/blog/3.jpg" alt=""
+                    class="group-hover:scale-110 transition-all duration-500" /></a>
+
+                <div class=" p-15px rounded-10px  transition-all duration-500">
+                  <div class=" w-full ">
+                    <div class="relative z-10">
+                      <ul class="flex gap-4 items-center mb-6">
+                        <li>
+                          <a href="#"
+                            class="text-size-15  px-2 py-1 rounded-50px leading-1  text-primary-color hover:text-white-color  bg-bg-color-7 hover:bg-primary-color bg-200 hover:bg-100">Technology</a>
+                        </li>
+                        <li class="font-medium">
+
+                          <span
+                            class="text-primary-color-light  dark:text-body-color-2 pl-5  relative transition-all duration-500 before:w-1 before:h-1 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-primary-color-light  dark:before:bg-body-color-2 before:rounded-100% ">
+                            SEP 14, 2024</span>
+                        </li>
+                      </ul>
+                      <h4 class="mb-5">
+                        <a href="blog-details.html"
+                          class="text-primary-color-light dark:text-white-color dark:group-hover:text-white-color w-full  text-size-22 lg:text-2xl font-semibold  leading-1.4 lg:leading-1.4 uppercase bg-[0_100%] [background-size:0_1px] bg-no-repeat bg-gradient-primary-11 hover:[background-size:100%_1px] tracking-0.02em inline duration-500">
+
+                          Digital Marketo to Their New Office.
+
+                        </a>
+                      </h4>
+                      <a href="blog-details.html"
+                        class="text-primary-color-light dark:text-white-color  transition-all duration-300  inline-flex gap-x-2 items-center  bg-[0_100%] [background-size:0_1px] bg-no-repeat bg-gradient-primary-11 hover:[background-size:100%_1px] leading-1.5 group/nested ">Read
+                        More
+
+
+                        <span class="relative overflow-hidden -rotate-45">
+                          <i
+                            class="fa-regular fa-arrow-right group-hover/nested:translate-x-150% transition-all duration-500 inline-block"></i>
+                          <i
+                            class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover/nested:-translate-x-0 transition-all duration-500"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CTA area -->
+    <section id="contact">
+
+      <div class="container">
+
+        <div
+          class=" bg-[url('../img/shapes/h4-cta.html')] bg-cover bg-no-repeat bg-center py-50px px-15px md:py-75px md:px-25px lg:pt-30 lg:pb-100px rounded-25px ">
+
+          <div class="text-center">
+            <div class="mb-25px  md:mb-30px lg:mb-46px wow fadeInUp" data-wow-delay=".3s">
+
+              <span
+                class="text-sm px-3 py-5px rounded-full border border-bg-color-2  uppercase text-white-color  font-semibold tracking-0.02em  relative inline-block  wow fadeInUp"
+                data-wow-delay=".3s">Looking for a new talent?</span>
+            </div>
+            <div class="wow fadeInUp" data-wow-delay=".4s">
+              <h2
+                class="text-size-25 sm:text-size-35 md:text-size-40 lg:text-size-50 xl:text-size-70 -tracking-0.02em  text-white-color leading-1.2  2xl:leading-1.2 font-semibold  mb-35px sm:mb-10 md:mb-50px lg:mb-65px xl:mb-85px   inline-block ">
+                <a id="anim" href="mailto:hello.writer@gerold.com" class=" inline">hello.writer@gerold.com</a>
+
+              </h2>
+
+            </div>
+            <div class="inline-block wow fadeInUp" data-wow-delay=".5s">
+              <ul
+                class="nav flex flex-wrap md:flex-nowrwap justify-center   gap-x-15px gap-y-5 py-4 border-y border-bg-color-2">
+
+                <li
+                  class="nav_item group pl-0 md:pl-17px first:pl-0 relative before:w-0.5 before:h-5 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-bg-color-2 before:hidden md:before:block first:before:hidden  ">
+                  <a href="#"
+                    class=" font-normal text-white-color hover:text-primary-color dark:hover:text-primary-color capitalize flex gap-2 items-center ">
+                    <span
+                      class=" text-white-color group-hover:text-primary-color-light
+      text-size-13 border border-border-color-3  group-hover:border-transparent w-7 h-7 rounded-full flex items-center justify-center overflow-hidden relative z-0 transition-all duration-300 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-white-color group-hover:after:scale-100 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fa-brands fa-behance"></i></span> Behance
+                  </a>
+                </li>
+                <li
+                  class="nav_item group pl-0 md:pl-17px first:pl-0 relative before:w-0.5 before:h-5 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-bg-color-2 before:hidden md:before:block first:before:hidden ">
+                  <a href="#"
+                    class=" font-normal text-white-color hover:text-primary-color dark:hover:text-primary-color capitalize flex gap-2 items-center ">
+                    <span
+                      class=" text-white-color group-hover:text-primary-color-light
+      text-size-13 border border-border-color-3  group-hover:border-transparent w-7 h-7 rounded-full flex items-center justify-center overflow-hidden relative z-0 transition-all duration-300 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-white-color group-hover:after:scale-100 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fa-light fa-basketball"></i></span> Dribble
+
+
+                  </a>
+                </li>
+                <li
+                  class="nav_item group pl-0 md:pl-17px first:pl-0 relative before:w-0.5 before:h-5 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-bg-color-2 before:hidden md:before:block first:before:hidden ">
+                  <a href="#"
+                    class=" font-normal text-white-color hover:text-primary-color dark:hover:text-primary-color capitalize flex gap-2 items-center ">
+                    <span
+                      class=" text-white-color group-hover:text-primary-color-light
+      text-size-13 border border-border-color-3  group-hover:border-transparent w-7 h-7 rounded-full flex items-center justify-center overflow-hidden relative z-0 transition-all duration-300 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-white-color group-hover:after:scale-100 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fa-brands fa-instagram"></i></span> Instgram
+
+                  </a>
+                </li>
+                <li
+                  class="nav_item group pl-0 md:pl-17px first:pl-0 relative before:w-0.5 before:h-5 before:absolute before:top-1/2 before:left-0 before:-translate-y-1/2 before:bg-bg-color-2 before:hidden md:before:block first:before:hidden ">
+                  <a href="#"
+                    class=" font-normal text-white-color hover:text-primary-color dark:hover:text-primary-color capitalize flex gap-2 items-center ">
+                    <span
+                      class=" text-white-color group-hover:text-primary-color-light
+      text-size-13 border border-border-color-3  group-hover:border-transparent w-7 h-7 rounded-full flex items-center justify-center overflow-hidden relative z-0 transition-all duration-300 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-white-color group-hover:after:scale-100 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fa-brands fa-x-twitter"></i></span> Twitter
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- footer area -->
+  <footer>
+    <div class="footer-inner">
+      <div class="container">
+
+        <div
+          class="flex flex-wrap gap-4 md:gap-30px justify-center xl:justify-between items-center py-30px md:py-50px  px-15px ">
+          <div>
+            <span
+              class="text-xs leading-2 sm:leading-2 uppercase font-semibold text-seondary-color dark:text-white-color block relative pl-4 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[7px] before:h-[7px]  before:bg-green1 before:rounded-100% ">AVAILABLE
+              FOR FREELANCE</span>
+          </div>
+          <div>
+            <ul class="nav flex gap-5   md:gap-x-35px gap-y-3">
+
+              <li class="nav_item group relative">
+                <a href="#portfolio"
+                  class="text-sm  text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color uppercase ">Work.
+                </a>
+              </li>
+
+              <li class="nav_item group relative">
+                <a href="#services"
+                  class="text-sm  text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color uppercase ">Services.
+                </a>
+              </li>
+
+              <li class="nav_item group relative">
+                <a href="#resume"
+                  class="text-sm  text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color uppercase ">About.
+                </a>
+              </li>
+
+
+              <li class="nav_item group relative">
+                <a href="#contact"
+                  class="text-sm  text-seondary-color hover:text-primary-color dark:text-gray-color-4 dark:hover:text-white-color uppercase   ">Contact.
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="copyright text-primary-color-light dark:text-gray-color-4  whitespace-nowrap text-sm  uppercase ">
+            ©All rights reserved by
+            <a href="index.html"
+              class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">ThemeJunction</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JSS here -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+  <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+  <script src="assets/js/gsap-split-text.min.js"></script>
+  <script src="assets/js/appear.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/imagesloaded-pkgd.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/nice-select.min.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/theme-controller.js"></script>
+  <script src="assets/js/vanilla-tilt.min.js"></script>
+  <script src="assets/js/sticky.min.js"></script>
+  <script src="assets/js/lightcase.js"></script>
+  <script src="assets/js/validate.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tj-cursor.js">
+  </script>
+</body>
+
+</html>

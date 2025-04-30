@@ -804,3 +804,114 @@ img {
     --color-tag-text: #9fa3c5;
   }
 }
+
+/* Add these styles to your existing CSS file */
+
+/* Preview links dropdown */
+.preview-links-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.preview-dropdown-btn {
+  background-color: var(--color-primary-light);
+  min-width: 140px;
+}
+
+.preview-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-card);
+  min-width: 180px;
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-sm);
+  z-index: 10;
+  top: calc(100% + 8px);
+  left: 0;
+  overflow: hidden;
+}
+
+.preview-dropdown-content.show {
+  display: block;
+  animation: fadeInDown 0.3s ease forwards;
+}
+
+.preview-dropdown-content a {
+  color: var(--color-text);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.preview-dropdown-content a:hover {
+  background-color: var(--color-tag);
+  color: var(--color-primary);
+}
+
+/* Adjust portfolio actions for multiple buttons */
+.portfolio-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Animation for dropdown */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Make sure the dropdown doesn't get cut off in the modal */
+.modal-body {
+  position: relative;
+  z-index: 1;
+}
+
+/* Adjust portfolio modal to handle multiple preview options */
+@media (max-width: 768px) {
+  .portfolio-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .preview-links-dropdown {
+    width: 100%;
+  }
+  
+  .preview-dropdown-btn {
+    width: 100%;
+  }
+  
+  .preview-dropdown-content {
+    width: 100%;
+  }
+}
+
+/* Optional: styles for a badge showing number of preview options */
+.preview-count-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: var(--color-secondary);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-left: 8px;
+  font-weight: bold;
+}

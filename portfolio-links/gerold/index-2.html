@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en" class="dark overflow-x-hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home 02 - Gerold | Personal Portfolio Tailwind CSS Template</title>
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
+  <link rel="stylesheet" href="assets/css/flaticon_gerold.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/backToTop.css" />
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/backToTop.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body class="font-sora dark:bg-dark-color overflow-x-hidden relative">
+  <!-- Preloader Area Start -->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>L</span>
+        <span>o</span>
+        <span>a</span>
+        <span>d</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader Area End -->
+
+  <!-- theme controller -->
+  <div class="fixed top-[200px] lg:top-[300px] transition-all duration-300 right-[-50px] hover:right-0 z-4xl">
+    <button
+      class="theme-controller w-90px h-10 bg-200 bg-gradient-secondary hover:bg-[-100%] rounded-l-full text-whiteColor px-10px flex items-center transition-all duration-300 font-sora">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mr-10px w-5 block dark:hidden" viewBox="0 0 512 512">
+        <path
+          d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+          fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path>
+      </svg>
+      <span class="text-base block dark:hidden">Dark</span>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="hidden mr-10px w-5 dark:block" viewBox="0 0 512 512">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+          d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94">
+        </path>
+        <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+          stroke-width="32"></circle>
+      </svg>
+      <span class="text-base hidden dark:block">Light</span>
+    </button>
+  </div>
+  <!-- start: Back To Top -->
+  <div class="progress-wrap" id="scrollUp">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <!-- header area  -->
+  <header class="header-area header-absolute">
+    <div class="pt-15px xl:pt-5 pb-5 md:pb-30px xl:pb-5 relative">
+      <div class="container">
+        <div class="flex flex-wrap justify-between items-center">
+          <!-- logo and contact email -->
+          <div>
+            <ul class="flex items-center gap-x-15px xl:gap-x-35px">
+              <li class="leading-1">
+                <a href="index.html" class="logo">
+                  <img class="w-15 h-15 hidden dark:inline-block" src="assets/img/logo/logo.png" alt="" />
+                  <img class="w-15 h-15 inlin-block dark:hidden" src="assets/img/logo/logo-dark.png" alt="" />
+                </a>
+              </li>
+              <li class="hidden md:block">
+                <a href="mailto:mail@gerolddesign.com"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color">mail@gerolddesign.com</a>
+              </li>
+            </ul>
+          </div>
+          <!-- main menu -->
+          <nav>
+            <ul class="nav flex items-center gap-x-5 xl:gap-x-30px 2xl:gap-x-45px">
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#services"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Services
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#portfolio"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Works
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#resume"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Resume
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#skills"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Skills
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#testimonials"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Testimonials
+                </a>
+              </li>
+
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#contact"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Contact
+                </a>
+              </li>
+              <!-- action button -->
+              <li>
+                <a href="#"
+                  class="text-size-15 font-semibold text-white-color capitalize py-4 px-30px ml-10px bg-primary-color rounded-full leading-1 transition-all duration-300 group inline-flex gap-x-10px items-center">Resume
+                  <span class="relative overflow-hidden">
+                    <i
+                      class="flaticon-download icon_first group-hover:translate-y-150% transition-all duration-500 inline-block"></i>
+                    <i
+                      class="flaticon-download icon_second absolute left-0 top-0 -translate-y-150% group-hover:-translate-y-0 transition-all duration-500"></i>
+                  </span>
+                </a>
+              </li>
+              <!-- open mobile menu button -->
+              <li class="menu-bar lg:hidden">
+                <div class="menu-bar">
+                  <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <!-- scale-y-0 transition-all duration-500 hover:scale-y-100 -->
+      <div
+        class="mobile-menu absolute left-0 top-full min-h-screen-90 w-full bg-seondary-color block origin-top-left lg:hidden">
+        <div class="container py-5">
+          <ul class="ml-4">
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#services">
+                Services
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- sticky -->
+  <header class="header-area header-2 header-sticky">
+    <div class="py-10px relative">
+      <div class="container">
+        <div class="flex flex-wrap justify-between items-center">
+          <!-- logo and contact email -->
+          <div>
+            <ul class="flex items-center gap-x-15px xl:gap-x-35px">
+              <li class="leading-1">
+                <a href="index.html" class="logo">
+                  <img class="w-15 h-15 hidden dark:inline-block" src="assets/img/logo/logo.png" alt="" />
+                  <img class="w-15 h-15 inlin-block dark:hidden" src="assets/img/logo/logo-dark.png" alt="" />
+                </a>
+              </li>
+              <li class="hidden md:block">
+                <a href="mailto:mail@gerolddesign.com"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color">mail@gerolddesign.com</a>
+              </li>
+            </ul>
+          </div>
+          <!-- main menu -->
+          <nav>
+            <ul class="nav flex items-center gap-x-5 xl:gap-x-30px 2xl:gap-x-45px">
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#services"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Services
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#portfolio"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Works
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#resume"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Resume
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#skills"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Skills
+                </a>
+              </li>
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#testimonials"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Testimonials
+                </a>
+              </li>
+
+              <li class="nav_item group relative hidden lg:block">
+                <a href="#contact"
+                  class="text-size-15 font-medium text-seondary-color dark:text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Contact
+                </a>
+              </li>
+              <!-- action button -->
+              <li>
+                <a href="#"
+                  class="text-size-15 font-semibold text-white-color capitalize py-4 px-30px ml-10px bg-primary-color rounded-full leading-1 transition-all duration-300 group inline-flex gap-x-10px items-center">Resume
+                  <span class="relative overflow-hidden">
+                    <i
+                      class="flaticon-download icon_first group-hover:translate-y-150% transition-all duration-500 inline-block"></i>
+                    <i
+                      class="flaticon-download icon_second absolute left-0 top-0 -translate-y-150% group-hover:-translate-y-0 transition-all duration-500"></i>
+                  </span>
+                </a>
+              </li>
+              <!-- open mobile menu button -->
+              <li class="menu-bar lg:hidden">
+                <div class="menu-bar">
+                  <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- mobile menu -->
+      <!-- scale-y-0 transition-all duration-500 hover:scale-y-100 -->
+      <div
+        class="mobile-menu absolute left-0 top-full min-h-screen-90 w-full bg-seondary-color block origin-top-left lg:hidden">
+        <div class="container py-5">
+          <ul class="ml-4">
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#services">
+                Services
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#portfolio">
+                Works
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#resume">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+
+            <li>
+              <a class="text-size-25 text-white-color uppercase leading-1.2 py-15px" href="#contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <!-- hero banner  -->
+    <section
+      class="hero-section relative pt-135px after:absolute after:top-0 after:right-0 after:w-322px after:h-308px after:blur-[150px] after:rounded-50% after:bg-gradient-circle after:-z-1 after:-mt-5% after:-mr-5% overflow-hidden">
+      <div class="container">
+        <div
+          class="flex items-center gap-x-60px px-5 py-30px lg:p-30px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px wow fadeInUp"
+          data-wow-delay="0.3s">
+          <div class="md:flex-shrink-0 hidden md:block relative">
+            <img src="assets/img/hero/hero-2.png" alt="banner image"
+              class="rounded-15px border border-transparent hover:border-primary-color transition-all duration-300" />
+          </div>
+          <div>
+            <h1
+              class="text-size-35 md:text-size-38 lg:text-size-50 xl:text-size-58 font-medium bg-gradient-text-light dark:bg-gradient-text bg-clip-text xl:leading-1.2 text-transparent md:mb-15px">
+              Hi, I am Sam - Web <br />
+              Developer + UX Designer
+            </h1>
+            <div class="flex md:hidden justify-center items-center my-30px">
+              <img src="assets/img/hero/me.png" alt="banner image"
+                class="rounded-38px border-2 border-seondary-color hover:border-primary-color transition-all duration-300 max-w-[80%]" />
+            </div>
+            <p class="text-xl leading-1.5 font-light text-primary-color-light dark:text-body-color max-w-540px">
+              I design and code beautifully simple things and i love what i
+              do. Just simple like that!
+            </p>
+            <!-- action and social -->
+            <div class="flex items-center gap-25px mt-5 md:mt-35px flex-wrap lg:flex-nowrap">
+              <div>
+                <a href="#contact"
+                  class="text-size-15 font-semibold text-white-color capitalize py-4 px-30px bg-primary-color rounded-full leading-1 transition-all duration-300 group inline-flex gap-x-15px items-center">Hire
+                  me!
+                  <span class="relative overflow-hidden -rotate-45">
+                    <i
+                      class="fa-regular fa-arrow-right group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                    <i
+                      class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover:-translate-x-0 transition-all duration-500"></i>
+                  </span>
+                </a>
+              </div>
+              <div>
+                <ul class="flex gap-x-5">
+                  <li>
+                    <a href="https://www.facebook.com/"
+                      class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/"
+                      class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.basketball.com/"
+                      class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fa-light fa-basketball"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.behance.com/"
+                      class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                        class="fab fa-behance"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fanfact -->
+    <div class="funfact-area mt-35px">
+      <div class="container">
+        <div
+          class="flex flex-wrap items-center justify-between px-5 py-30px xl:px-75px xl:py-35px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px gap-x-15px gap-y-30px md:gap-25px text-primary-color dark:text-body-color">
+          <div class="funfact-item flex flex-wrap sm:flex-nowrap flex-col justify-center lg:justify-start">
+            <div class="mb-10px">
+              <i class="tj flaticon flaticon-trophy clear-start text-size-32 text-primary-color leading-1"></i>
+            </div>
+            <div class="number text-size-45 md:text-size-55 xl:text-size-64 font-medium leading-1">
+              <span class="odometer !font-sora tracking-[0.04em]" data-count="14">0</span>%
+            </div>
+            <div class="text">Job achievements</div>
+          </div>
+
+          <div class="funfact-item flex flex-wrap sm:flex-nowrap flex-col justify-center lg:justify-start">
+            <div class="mb-10px">
+              <i class="tj flaticon flaticon-hand-bag text-size-32 text-primary-color leading-1"></i>
+            </div>
+            <div class="number text-size-45 md:text-size-55 xl:text-size-64 font-medium leading-1">
+              <span class="odometer !font-sora tracking-[0.04em]" data-count="50">0</span>+
+            </div>
+            <div class="text">Years of Experience</div>
+          </div>
+
+          <div class="funfact-item flex flex-wrap sm:flex-nowrap flex-col justify-center lg:justify-start">
+            <div class="mb-10px">
+              <i class="tj flaticon flaticon-menu text-size-32 text-primary-color leading-1"></i>
+            </div>
+            <div class="number text-size-45 md:text-size-55 xl:text-size-64 font-medium leading-1">
+              <span class="odometer !font-sora tracking-[0.04em]" data-count="1.5">0</span>K
+            </div>
+            <div class="text">Happy Clients</div>
+          </div>
+
+          <div class="funfact-item flex flex-wrap sm:flex-nowrap flex-col justify-center lg:justify-start">
+            <div class="mb-10px">
+              <i class="tj flaticon flaticon-crown text-size-32 text-primary-color leading-1"></i>
+            </div>
+            <div class="number text-size-45 md:text-size-55 xl:text-size-64 font-medium leading-1">
+              <span class="odometer !font-sora tracking-[0.04em]" data-count="50">0</span>+
+            </div>
+            <div class="text">Project Completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about area -->
+    <section>
+      <div id="about" class="container">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-35px mt-35px">
+          <!-- left -->
+          <div
+            class="lg:col-start-1 lg:col-span-7 px-5 py-30px xl:px-10 xl:py-30px 2xl:px-65px 2xl:py-10 bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px gap-x-15px gap-y-30px md:gap-25px text-primary-color dark:text-body-color">
+            <div>
+              <h2
+                class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 font-medium bg-gradient-text-light inline-block dark:bg-gradient-text bg-clip-text leading-1.2 xl:leading-1.2 text-transparent mb-5 wow fadeInUp"
+                data-wow-delay="0.3s">
+                Achievements in my <br />
+                professional life.
+              </h2>
+
+              <p class="text-xl leading-1.5 text-primary-color-light dark:text-body-color max-w-540px wow fadeInUp"
+                data-wow-delay="0.4s">
+                Since beginning my journey as a freelance designer nearly 8
+                years ago, I've done remote work for agencies, consulted for
+                startups, and collaborated with talented people to create
+                digital products for both business and consumer us
+              </p>
+              <!-- action and social -->
+
+              <div class="mt-50px 2xl:mt-20 wow fadeInUp" data-wow-delay="0.5s">
+                <a href="#contact"
+                  class="text-size-15 font-semibold text-white-color capitalize py-4 px-30px bg-primary-color rounded-full leading-1 transition-all duration-300 group inline-flex gap-x-15px items-center">Contact
+                  Me
+
+                  <span class="relative overflow-hidden -rotate-45">
+                    <i
+                      class="fa-regular fa-arrow-right group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                    <i
+                      class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover:-translate-x-0 transition-all duration-500"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- right -->
+          <div
+            class="lg:col-start-8 lg:col-span-5 bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px gap-x-15px gap-y-30px md:gap-25px text-primary-color dark:text-body-color overflow-hidden">
+            <div class="px-5 pt-30px xl:px-30px xl:pt-10 2xl:px-10 2xl:pt-30px">
+              <h4
+                class="text-xl font-bold bg-gradient-text-light inline-block dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent mb-15px wow fadeInRight"
+                data-wow-delay="0.3s">
+                Interface Designer
+              </h4>
+
+              <p class="leading-1.5 text-primary-color-light dark:text-body-color max-w-330px wow fadeInRight"
+                data-wow-delay="0.4s">
+                As a UI designer, I work closely with clients to understand
+                their needs and goals for their software or website.
+              </p>
+            </div>
+            <!-- img -->
+            <div class="2xl:-mt-10px">
+              <img class="w-full" src="assets/img/hero/about-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services area -->
+    <section id="services">
+      <div class="pt-60px md:pt-100px lg:pt-30">
+        <div class="container">
+          <!-- section heading -->
+          <div class="mb-10 md:mb-50px">
+            <h2
+              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent wow fadeInUp"
+              data-wow-delay=".3s">
+              My Specialization
+            </h2>
+          </div>
+          <!-- services -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- service 1 -->
+            <div
+              class="rounded-10px overflow-hidden pb-30px bg-cream-light-color dark:bg-transparent border border-body-color dark:border-seondary-color hover:border-primary-color dark:hover:border-primary-color transition-all duration-300 wow fadeInUp"
+              data-wow-delay="0.3s">
+              <div class="bg-primary-color-2 dark:bg-seondary-color px-30px py-5 mb-30px">
+                <span class="w-16 h-16 bg-gradient-primary-4 inline-flex justify-center items-center rounded-10px"><i
+                    class="flaticon-design text-size-32 text-white-color leading-1"></i></span>
+              </div>
+
+              <div class="p-15px md:p-30px pb-0 md:pb-0">
+                <h3 class="text-xl md:text-size-22 lg:text-2xl mb-10px leading-1.2 lg:leading-1.2 font-medium">
+                  <a href="service-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">Web
+                    Development</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color mb-35px">
+                  Conducting qualitative and quantitative research to
+                  understand user needs, behaviors, and pain points. Utilizing
+                  methods such as surveys, interviews, and usability
+                  testing...
+                </p>
+                <p class="text-primary-color-light dark:text-white-color uppercase underline">
+                  10 PROJECTS
+                </p>
+              </div>
+            </div>
+            <!-- service 2 -->
+            <div
+              class="rounded-10px overflow-hidden pb-30px bg-cream-light-color dark:bg-transparent border border-body-color dark:border-seondary-color hover:border-primary-color dark:hover:border-primary-color transition-all duration-300 wow fadeInUp"
+              data-wow-delay="0.4s">
+              <div class="bg-primary-color-2 dark:bg-seondary-color px-30px py-5 mb-30px">
+                <span class="w-16 h-16 bg-gradient-primary-4 inline-flex justify-center items-center rounded-10px"><i
+                    class="flaticon-ux-design text-size-32 text-white-color leading-1"></i></span>
+              </div>
+
+              <div class="p-15px md:p-30px pb-0 md:pb-0">
+                <h3 class="text-xl md:text-size-22 lg:text-2xl mb-10px leading-1.2 lg:leading-1.2 font-medium">
+                  <a href="service-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">UI/UX
+                    Design</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color mb-35px">
+                  Conducting qualitative and quantitative research to
+                  understand user needs, behaviors, and pain points. Utilizing
+                  methods such as surveys, interviews, and usability
+                  testing...
+                </p>
+                <p class="text-primary-color-light dark:text-white-color uppercase underline">
+                  11 PROJECTS
+                </p>
+              </div>
+            </div>
+            <!-- service 3 -->
+            <div
+              class="rounded-10px overflow-hidden pb-30px bg-cream-light-color dark:bg-transparent border border-body-color dark:border-seondary-color hover:border-primary-color dark:hover:border-primary-color transition-all duration-300 wow fadeInUp"
+              data-wow-delay="0.5s">
+              <div class="bg-primary-color-2 dark:bg-seondary-color px-30px py-5 mb-30px">
+                <span class="w-16 h-16 bg-gradient-primary-4 inline-flex justify-center items-center rounded-10px"><i
+                    class="flaticon-web-design text-size-32 text-white-color leading-1"></i></span>
+              </div>
+
+              <div class="p-15px md:p-30px pb-0 md:pb-0">
+                <h3 class="text-xl md:text-size-22 lg:text-2xl mb-10px leading-1.2 lg:leading-1.2 font-medium">
+                  <a href="service-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">Content
+                    Writing</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color mb-35px">
+                  Conducting qualitative and quantitative research to
+                  understand user needs, behaviors, and pain points. Utilizing
+                  methods such as surveys, interviews, and usability
+                  testing...
+                </p>
+                <p class="text-primary-color-light dark:text-white-color uppercase underline">
+                  10 PROJECTS
+                </p>
+              </div>
+            </div>
+            <!-- service 4 -->
+            <div
+              class="rounded-10px overflow-hidden pb-30px bg-cream-light-color dark:bg-transparent border border-body-color dark:border-seondary-color hover:border-primary-color dark:hover:border-primary-color transition-all duration-300 wow fadeInUp"
+              data-wow-delay="0.6s">
+              <div class="bg-primary-color-2 dark:bg-seondary-color px-30px py-5 mb-30px">
+                <span class="w-16 h-16 bg-gradient-primary-4 inline-flex justify-center items-center rounded-10px"><i
+                    class="flaticon-3d-movie text-size-32 text-white-color leading-1"></i></span>
+              </div>
+
+              <div class="p-15px md:p-30px pb-0 md:pb-0">
+                <h3 class="text-xl md:text-size-22 lg:text-2xl mb-10px leading-1.2 lg:leading-1.2 font-medium">
+                  <a href="service-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">Digital
+                    Marketing</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color mb-35px">
+                  Conducting qualitative and quantitative research to
+                  understand user needs, behaviors, and pain points. Utilizing
+                  methods such as surveys, interviews, and usability
+                  testing...
+                </p>
+                <p class="text-primary-color-light dark:text-white-color uppercase underline">
+                  15 PROJECTS
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio area -->
+    <section id="portfolio">
+      <div class="pt-60px md:pt-100px lg:pt-30">
+        <div class="container">
+          <!-- section heading -->
+          <div class="mb-10 md:mb-50px">
+            <h2
+              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent wow fadeInUp"
+              data-wow-delay=".3s">
+              Recent Projects
+            </h2>
+          </div>
+          <!-- portfolios -->
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <!-- portfolio 1 -->
+            <div
+              class="lg:col-start-1 lg:col-span-12 rounded-15px flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-35px overflow-hidden px-15px py-5 md:p-5 xl:p-5 xl:pl-35px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color wow fadeInUp"
+              data-wow-delay=".4s">
+              <div class="lg:max-w-380px">
+                <h6 class="text-primary-color font-medium mb-15px">
+                  Social App
+                </h6>
+                <h3 class="text-size-22 md:text-size-25 lg:text-3xl leading-1.2 lg:leading-1.2 font-semibold mb-5">
+                  <a href="portfolio-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">Deloitte</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color">
+                  Project was about precision and information. That’s all. Our
+                  design tem helps clients achieve their marketing Trager and
+                  branding that appeals to a website
+                </p>
+                <!-- tags -->
+                <ul class="my-30px lg:my-50px flex gap-10px items-center flex-wrap">
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">Branding</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">Graphic
+                      Design</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">User
+                      Stories</a>
+                  </li>
+                </ul>
+                <p class="text-primary-color-light dark:text-white-color mb-15px">
+                  “The service was excellent. Template example is the next
+                  killer app.”
+                </p>
+                <!-- employee -->
+                <div class="flex gap-25px items-center">
+                  <div class="flex-shrink-0">
+                    <img class="w-55px h-55px rounded-full" src="assets/img/project/project-1.png" alt="" />
+                  </div>
+                  <div>
+                    <h6 class="text-sm text-primary-color-light dark:text-white-color font-medium mb-1.5">
+                      Jeremy Doughlas
+                    </h6>
+                    <p class="text-sm text-gray-color">UI & UX designer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="px-25px py-30px bg-bg-color rounded-15px overflow-hidden w-auto">
+                <img src="assets/img/project/project-2.png" alt="" />
+              </div>
+            </div>
+            <!-- portfolio 2 -->
+            <div
+              class="lg:col-start-1 lg:col-span-7 rounded-15px flex flex-col gap-25px overflow-hidden px-15px py-5 md:p-5 xl:p-5 bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color wow fadeInUp"
+              data-wow-delay=".3s">
+              <div class="p-25px pb-0 bg-bg-color rounded-15px overflow-hidden h-auto lg:h-280px xl:h-348px">
+                <img src="assets/img/project/project-3.png" class="w-full object-cover" alt="" />
+              </div>
+
+              <div class="lg:max-w-380px">
+                <h6 class="text-primary-color font-medium mb-15px">UX/UI</h6>
+                <h3 class="text-size-22 md:text-size-25 lg:text-3xl leading-1.2 lg:leading-1.2 font-semibold mb-5">
+                  <a href="portfolio-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">New
+                    Age</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color">
+                  Project was about precision and information. That’s all. Our
+                  design...
+                </p>
+                <!-- tags -->
+                <ul class="my-4 flex gap-10px items-center flex-wrap">
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">Branding</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">Graphic
+                      Design</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">User
+                      Stories</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- portfolio 3 -->
+            <div
+              class="lg:col-start-8 lg:col-span-5 rounded-15px flex flex-col gap-25px overflow-hidden px-15px py-5 md:p-5 xl:p-5 bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color wow fadeInUp"
+              data-wow-delay=".4s">
+              <div class="p-25px pb-0 bg-bg-color rounded-15px overflow-hidden h-auto lg:h-280px xl:h-348px">
+                <img src="assets/img/project/project-4.png" alt="" class="w-full object-cover" />
+              </div>
+
+              <div class="lg:max-w-380px">
+                <h6 class="text-primary-color font-medium mb-15px">UX/UI</h6>
+                <h3 class="text-size-22 md:text-size-25 lg:text-3xl leading-1.2 lg:leading-1.2 font-semibold mb-5">
+                  <a href="portfolio-details.html"
+                    class="text-primary-color-light dark:text-white-color hover:text-primary-color dark:hover:text-primary-color">Sebastian</a>
+                </h3>
+
+                <p class="text-primary-color-light dark:text-white-color">
+                  Project was about precision and information....
+                </p>
+                <!-- tags -->
+                <ul class="my-4 flex gap-10px items-center flex-wrap">
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">Branding</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">Graphic
+                      Design</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      class="text-white-color px-10px py-2 bg-seondary-color leading-1 hover:bg-primary-color rounded-full">User
+                      Stories</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- resume  area -->
+    <section id="resume">
+      <div class="pt-60px md:pt-100px lg:pt-30">
+        <div class="container">
+          <!-- section heading -->
+          <div class="mb-10 md:mb-50px">
+            <h2
+              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent wow fadeInUp"
+              data-wow-delay=".3s">
+              Education & Work Experience
+            </h2>
+          </div>
+          <!-- resumes -->
+          <div
+            class="flex justify-between flex-wrap gap-50px md:gap-15px px-5 py-30px lg:px-35px lg:pt-10 lg:pb-70px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px">
+            <!--  resume 1 -->
+            <div>
+              <h3 class="text-primary-color text-lg md:text-xl font-semibold mb-30px md:mb-45px uppercase">
+                EDUCATION
+              </h3>
+              <div
+                class="pb-35px pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 after:w-1px after:h-full after:bg-border-color dark:after:bg-bg-color-2 after:absolute after:top-1.5 after:left-1.5 after:z-10 wow fadeInUp"
+                data-wow-delay=".3s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  BA IN DESIGN
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">January 2024 - Present</p>
+              </div>
+              <div
+                class="pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 wow fadeInUp"
+                data-wow-delay=".4s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  UX/UI DESIGN SCHOOL
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">April 2024 - Present</p>
+              </div>
+            </div>
+            <!--  resume 2 -->
+            <div>
+              <h3 class="text-primary-color text-lg md:text-xl font-semibold mb-30px md:mb-45px uppercase">
+                EXPERIENCE
+              </h3>
+              <div
+                class="pb-35px pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 after:w-1px after:h-full after:bg-border-color dark:after:bg-bg-color-2 after:absolute after:top-1.5 after:left-1.5 after:z-10 wow fadeInUp"
+                data-wow-delay=".3s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  LION PARCEL
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">January 2024 - Present</p>
+              </div>
+              <div
+                class="pb-35px pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 after:w-1px after:h-full after:bg-border-color dark:after:bg-bg-color-2 after:absolute after:top-1.5 after:left-1.5 after:z-10 wow fadeInUp"
+                data-wow-delay=".4s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  ENVER STUDIO
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">May 2024 - Present</p>
+              </div>
+              <div
+                class="pb-35px pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 after:w-1px after:h-full after:bg-border-color dark:after:bg-bg-color-2 after:absolute after:top-1.5 after:left-1.5 after:z-10 wow fadeInUp"
+                data-wow-delay=".5s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  TOKO DISTRIBUTOR
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">March 2024 - Present</p>
+              </div>
+              <div
+                class="pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 wow fadeInUp"
+                data-wow-delay=".6s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  SAKOO
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">June 2024 - Present</p>
+              </div>
+            </div>
+            <!--  resume 2 -->
+            <div>
+              <h3 class="text-primary-color text-lg md:text-xl font-semibold mb-30px md:mb-45px uppercase">
+                PAST ROLES
+              </h3>
+              <div
+                class="pb-35px pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 after:w-1px after:h-full after:bg-border-color dark:after:bg-bg-color-2 after:absolute after:top-1.5 after:left-1.5 after:z-10 wow fadeInUp"
+                data-wow-delay=".3s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  LION PARCEL
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">January 2024 - Present</p>
+              </div>
+              <div
+                class="pb-35px pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 after:w-1px after:h-full after:bg-border-color dark:after:bg-bg-color-2 after:absolute after:top-1.5 after:left-1.5 after:z-10 wow fadeInUp"
+                data-wow-delay=".4s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  ENVER STUDIO
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">May 2024 - Present</p>
+              </div>
+              <div
+                class="pl-35px lg:pl-50px relative before:w-13px before:h-13px before:bg-primary-color before:absolute before:left-0 before:top-0 before:rounded-full before:z-20 wow fadeInUp"
+                data-wow-delay=".5s">
+                <h4
+                  class="text-primary-color-light dark:text-white-color text-lg md:text-xl leading-1.2 md:leading-1.2 font-medium mb-3 uppercase">
+                  TOKO DISTRIBUTOR
+                </h4>
+
+                <p class="text-primary-color-light dark:text-white-color font-medium mb-2">
+                  Product Designer
+                </p>
+                <p class="text-gray-color">March 2024 - Present</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills area -->
+    <section id="skills">
+      <div class="pt-60px md:pt-100px lg:pt-30">
+        <div class="container">
+          <!-- section heading -->
+          <div class="text-center flex flex-col items-center mb-10 md:mb-50px">
+            <h2
+              class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent mb-15px">
+              My Skills
+            </h2>
+            <p class="text-primary-color-light dark:text-body-color max-w-700px">
+              We put your ideas and thus your wishes in the form of a unique
+              web project that inspires you and you customers.
+            </p>
+          </div>
+          <!-- skills -->
+          <div class="skills">
+            <div class="flex flex-wrap items-center justify-center gap-5">
+              <!-- skills single -->
+              <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".3s">
+                <!-- contents -->
+                <div
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
+                    <img
+                      class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 w-60px"
+                      src="assets/img/icons/figma.png" alt="" />
+                  </div>
+                  <div
+                    class="text-xl text-gray-color-2 group-hover:text-primary-color transition-none duration-300 font-extrabold">
+                    92%
+                  </div>
+                </div>
+                <p class="text-primary-color text-center">Figma</p>
+              </div>
+              <!-- skills single -->
+              <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".4s">
+                <!-- contents -->
+                <div
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
+                    <img
+                      class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 w-60px"
+                      src="assets/img/icons/sketch.png" alt="" />
+                  </div>
+                  <div
+                    class="text-xl text-gray-color-2 group-hover:text-primary-color transition-none duration-300 font-extrabold">
+                    80%
+                  </div>
+                </div>
+                <p class="text-primary-color text-center">Sketch</p>
+              </div>
+              <!-- skills single -->
+              <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".5s">
+                <!-- contents -->
+                <div
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
+                    <img
+                      class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 w-60px"
+                      src="assets/img/icons/xd.png" alt="" />
+                  </div>
+                  <div
+                    class="text-xl text-gray-color-2 group-hover:text-primary-color transition-none duration-300 font-extrabold">
+                    85%
+                  </div>
+                </div>
+                <p class="text-primary-color text-center">XD</p>
+              </div>
+              <!-- skills single -->
+              <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".6s">
+                <!-- contents -->
+                <div
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
+                    <img
+                      class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 w-60px"
+                      src="assets/img/icons/wp.png" alt="" />
+                  </div>
+                  <div
+                    class="text-xl text-gray-color-2 group-hover:text-primary-color transition-none duration-300 font-extrabold">
+                    99%
+                  </div>
+                </div>
+                <p class="text-primary-color text-center">WordPress</p>
+              </div>
+              <!-- skills single -->
+              <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".7s">
+                <!-- contents -->
+                <div
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
+                    <img
+                      class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 w-60px"
+                      src="assets/img/icons/react.png" alt="" />
+                  </div>
+                  <div
+                    class="text-xl text-gray-color-2 group-hover:text-primary-color transition-none duration-300 font-extrabold">
+                    89%
+                  </div>
+                </div>
+                <p class="text-primary-color text-center">React</p>
+              </div>
+              <!-- skills single -->
+              <div class="max-w-180px w-full group wow fadeInUp" data-wow-delay=".8s">
+                <!-- contents -->
+                <div
+                  class="flex flex-col items-center py-25px px-15px md:pt-30px 2xl:pt-10 2xl:mb-30px rounded-25px bg-cream-light-color dark:bg-primary-color-light border border-transparent group-hover:border-primary-color group-hover:bg-seondary-color transition-all duration-500 mb-15px">
+                  <div class="mb-5 md:mb-30px mx-9 2xl:mx-44px w-60px flex flex-col justify-center items-center">
+                    <img
+                      class="grayscale-[90%] group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110 w-60px"
+                      src="assets/img/icons/js.png" alt="" />
+                  </div>
+                  <div
+                    class="text-xl text-gray-color-2 group-hover:text-primary-color transition-none duration-300 font-extrabold">
+                    93%
+                  </div>
+                </div>
+                <p class="text-primary-color text-center">JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials area -->
+    <section id="testimonials">
+      <div class="pt-60px md:pt-100px lg:pt-30">
+        <div class="container">
+          <div class="testimonials overflow-x-hidden">
+            <!-- section heading -->
+            <div>
+              <div class="mb-10 md:mb-50px wow fadeInUp" data-wow-delay=".3s">
+                <h2
+                  class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent wow fadeInLeft"
+                  data-wow-delay=".3s">
+                  Clients Testimonials
+                </h2>
+              </div>
+            </div>
+            <!-- testimonial single -->
+            <div class="wow fadeInRight overflow-hidden" data-wow-delay=".5s">
+              <div class="owl-carousel testimonial-carousel">
+                <div
+                  class="px-5 py-30px lg:pt-45px lg:pb-10 lg:pl-35px lg:pr-30px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px relative z-0 group">
+                  <div class="relative z-10">
+                    <p class="max-w-480px text-primary-color-light dark:text-body-color text-xl mb-30px md:mb-50px">
+                      “Taylor is a professional Designer he really helps my
+                      business by providing value to my business.
+                    </p>
+
+                    <div class="flex gap-15px items-center">
+                      <div class="flex-shrink-0">
+                        <img class="w-55px h-55px rounded-full" src="assets/img/testimonials/user/1.png" alt="" />
+                      </div>
+                      <div>
+                        <h6 class="text-sm text-primary-color-light dark:text-white-color font-medium mb-1.5">
+                          Brandon Fraser
+                        </h6>
+                        <p class="text-sm text-gray-color">
+                          Senior Software Dev, Cosmic Sport
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="px-5 py-30px lg:pt-45px lg:pb-10 lg:pl-35px lg:pr-30px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px relative z-0 group">
+                  <div class="relative z-10">
+                    <p class="max-w-480px text-primary-color-light dark:text-body-color text-xl mb-30px md:mb-50px">
+                      “Taylor is a professional Designer he really helps my
+                      business by providing value to my business.
+                    </p>
+
+                    <div class="flex gap-15px items-center">
+                      <div class="flex-shrink-0">
+                        <img class="w-55px h-55px rounded-full" src="assets/img/testimonials/user/2.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h6 class="text-sm text-primary-color-light dark:text-white-color font-medium mb-1.5">
+                          Tim Bailey
+                        </h6>
+                        <p class="text-sm text-gray-color">
+                          SEO Specialist, Theme Junction
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="px-5 py-30px lg:pt-45px lg:pb-10 lg:pl-35px lg:pr-30px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px relative z-0 group">
+                  <div class="relative z-10">
+                    <p class="max-w-480px text-primary-color-light dark:text-body-color text-xl mb-30px md:mb-50px">
+                      “Taylor is a professional Designer he really helps my
+                      business by providing value to my business.
+                    </p>
+
+                    <div class="flex gap-15px items-center">
+                      <div class="flex-shrink-0">
+                        <img class="w-55px h-55px rounded-full" src="assets/img/testimonials/user/1.png" alt="" />
+                      </div>
+                      <div>
+                        <h6 class="text-sm text-primary-color-light dark:text-white-color font-medium mb-1.5">
+                          Brandon Fraser
+                        </h6>
+                        <p class="text-sm text-gray-color">
+                          Senior Software Dev, Cosmic Sport
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="px-5 py-30px lg:pt-45px lg:pb-10 lg:pl-35px lg:pr-30px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px relative z-0 group">
+                  <div class="relative z-10">
+                    <p class="max-w-480px text-primary-color-light dark:text-body-color text-xl mb-30px md:mb-50px">
+                      “Taylor is a professional Designer he really helps my
+                      business by providing value to my business.
+                    </p>
+
+                    <div class="flex gap-15px items-center">
+                      <div class="flex-shrink-0">
+                        <img class="w-55px h-55px rounded-full" src="assets/img/testimonials/user/2.jpg" alt="" />
+                      </div>
+                      <div>
+                        <h6 class="text-sm text-primary-color-light dark:text-white-color font-medium mb-1.5">
+                          Tim Bailey
+                        </h6>
+                        <p class="text-sm text-gray-color">
+                          SEO Specialist, Theme Junction
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand area -->
+    <section id="testimonials">
+      <div class="pt-60px md:pt-100px lg:pt-30">
+        <div class="container">
+          <div class="testimonials">
+            <!-- section heading -->
+            <div>
+              <div class="mb-5 wow fadeInUp" data-wow-delay=".3s">
+                <h2
+                  class="text-xs inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent mb-15px wow fadeInLeft uppercase"
+                  data-wow-delay=".3s">
+                  Worked With Largest Brands
+                </h2>
+              </div>
+            </div>
+            <!-- slider -->
+            <div class="swiper brand-slider wow fadeInUp" data-wow-delay=".3s">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="brand-item text-center wow fadeInUp" data-wow-delay=".4s">
+                    <a href="#">
+                      <img class="hidden dark:block" src="assets/img/brand/brand-1.png" alt="Images" />
+                      <img class="block dark:hidden" src="assets/img/brand/brand-l-1.png" alt="Images" />
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item text-center wow fadeInUp" data-wow-delay=".5s">
+                    <a href="#">
+                      <img class="hidden dark:block" src="assets/img/brand/brand-2.png" alt="Images" />
+                      <img class="block dark:hidden" src="assets/img/brand/brand-l-2.png" alt="Images" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item text-center wow fadeInUp" data-wow-delay=".6s">
+                    <a href="#">
+                      <img class="hidden dark:block" src="assets/img/brand/brand-6.png" alt="Images" />
+                      <img class="block dark:hidden" src="assets/img/brand/brand-l-6.png" alt="Images" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item text-center wow fadeInUp" data-wow-delay=".7s">
+                    <a href="#"><img src="assets/img/brand/brand-4.png" alt="Images" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item text-center wow fadeInUp" data-wow-delay=".8s">
+                    <a href="#"><img src="assets/img/brand/brand-5.png" alt="Images" /></a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand-item text-center wow fadeInUp" data-wow-delay=".9s">
+                    <a href="#">
+                      <img class="hidden dark:block" src="assets/img/brand/brand-3.png" alt="Images" />
+                      <img class="block dark:hidden" src="assets/img/brand/brand-l-3.png" alt="Images" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact area -->
+    <section id="contact">
+      <div class="pt-60px md:pt-100px lg:pt-30 pb-20 md:pb-100px">
+        <div class="container">
+          <div
+            class="flex flex-col xl:flex-row xl:justify-between xl:items-center gap-50px xl:gap-45px 2xl:gap-5 px-5 py-30px xl:p-50px bg-cream-light-color dark:bg-primary-color-light border border-body-color dark:border-seondary-color rounded-15px">
+            <!-- section heading -->
+            <div>
+              <div class="wow fadeInLeft" data-wow-delay=".3s">
+                <form id="contact-form" class="contact xl:max-w-600px">
+                  <div class="mb-25px">
+                    <h2
+                      class="text-3xl md:text-size-35 lg:text-size-40 xl:text-size-45 inline-block bg-gradient-text-light dark:bg-gradient-text bg-clip-text leading-1.2 text-transparent mb-15px">
+                      Let’s work <br />
+                      together!
+                    </h2>
+                    <p class="text-primary-color-light dark:text-body-color wow fadeInLeft" data-wow-delay=".4s">
+                      I design and code beautifully simple things and i love
+                      what i do. Just simple like that!
+                    </p>
+                  </div>
+                  <!-- inputs -->
+                  <div class="grid grid-cols-1 gap-30px">
+                    <!-- first name -->
+                    <div>
+                      <input name="conName" id="conName" type="text" placeholder="First name"
+                        class="text-white-color w-full py-15px border-b border-gray-color bg-transparent focus:border-primary-color rounded-none outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1" />
+                    </div>
+                    <!-- Last name -->
+                    <div>
+                      <input name="conLName" id="conLName" type="text" placeholder="Last name"
+                        class="text-white-color w-full py-15px border-b border-gray-color bg-transparent focus:border-primary-color rounded-none outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1" />
+                    </div>
+                    <!-- Email address -->
+                    <div>
+                      <input name="conEmail" id="conEmail" type="email" placeholder="Email address"
+                        class="text-white-color w-full py-15px border-b border-gray-color bg-transparent focus:border-primary-color rounded-none outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1" />
+                    </div>
+                    <!-- Phone number -->
+                    <div>
+                      <input name="conPhone" id="conPhone" type="text" placeholder="Phone number"
+                        class="text-white-color w-full py-15px border-b border-gray-color bg-transparent focus:border-primary-color rounded-none outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1" />
+                    </div>
+
+                    <div>
+                      <textarea name="conMessage" id="conMessage" cols="1" rows="10" placeholder="Message"
+                        class="text-white-color w-full py-15px border-b border-gray-color bg-transparent focus:border-primary-color rounded-none outline-none focus:outline-none transition-all duration-300 placeholder:text-gray-color leading-1"></textarea>
+                    </div>
+
+                    <div>
+                      <button type="submit"
+                        class="text-size-15 font-semibold text-white-color capitalize py-4 px-30px bg-primary-color rounded-full leading-1 transition-all dur15pxn-300 group inline-flex gap-x-10px items-center">
+                        Send Message
+                        <span class="relative overflow-hidden -rotate-45">
+                          <i
+                            class="fa-regular fa-arrow-right group-hover:translate-x-150% transition-all duration-500 inline-block"></i>
+                          <i
+                            class="fa-regular fa-arrow-right absolute left-0 top-0 -translate-x-150% group-hover:-translate-x-0 transition-all duration-500"></i>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- experience single area -->
+            <div class="max-w-400">
+              <p class="text-primary-color-light dark:text-body-color wow fadeInRight mb-45px" data-wow-delay=".3s">
+                I'm currently avaliable to take on new projects, so feel free
+                to send me a message about anything that you want to run past
+                me. You can contact anytime at 24/7.
+              </p>
+              <div class="contact-info-list mb-45px">
+                <ul class="flex flex-col gap-y-10">
+                  <li class="flex flex-wrap items-center gap-25px position-relative wow fadeInRight"
+                    data-wow-delay=".4s">
+                    <div class="text-box">
+                      <a href="tel:0123456789"
+                        class="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-normal leading-1.4 hover:text-primary-color underline">+01
+                        123 654 8096</a>
+                    </div>
+                  </li>
+                  <li class="flex flex-wrap items-center gap-25px position-relative wow fadeInRight"
+                    data-wow-delay=".5s">
+                    <div class="text-box">
+                      <a href="mailto:mail@mail.com"
+                        class="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-normal leading-1.4 hover:text-primary-color underline">gerolddesign@mail.com</a>
+                    </div>
+                  </li>
+                  <li class="flex flex-wrap items-center gap-25px position-relative wow fadeInRight"
+                    data-wow-delay=".6s">
+                    <div class="text-box">
+                      <a href="#"
+                        class="text-primary-color-light dark:text-white-color text-lg lg:text-xl font-normal leading-1.4 hover:text-primary-color underline">Warne
+                        Park Street Pine, <br />
+                        FL 33157, New York</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <ul class="flex gap-x-5 wow fadeInRight" data-wow-delay=".7s">
+                <li>
+                  <a href="https://www.facebook.com/"
+                    class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                      class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"
+                    class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                      class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="https://x.com/"
+                    class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                      class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/"
+                    class="text-primary-color hover:text-body-color border border-primary-color w-35px h-35px rounded-full flex items-center justify-center overflow-hidden relative z-0 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-full after:h-full after:scale-0 after:bg-primary-color hover:after:scale-105 after:transition-all after:duration-300 after:z-[-1] after:rounded-full"><i
+                      class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- footer area -->
+  <footer>
+    <div class="footer-inner bg-seondary-color dark:bg-seondary-color">
+      <div class="container">
+        <div class="flex flex-col items-center pt-50px pb-5 md:pt-60px">
+          <div class="footer-logo w-75px h-75px mb-5 md:mb-3">
+            <a href="index.html"><img src="assets/img/logo/logo.png" alt="" /></a>
+          </div>
+          <!-- nav -->
+          <div>
+            <ul class="nav flex flex-wrap items-center justify-center gap-x-5 md:gap-x-35px">
+              <li class="nav_item group relative">
+                <a href="#about"
+                  class="text-size-15 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">About
+                </a>
+              </li>
+              <li class="nav_item group relative">
+                <a href="#services"
+                  class="text-size-15 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Services
+                </a>
+              </li>
+              <li class="nav_item group relative">
+                <a href="#portfolio"
+                  class="text-size-15 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Portfolios
+                </a>
+              </li>
+
+              <li class="nav_item group relative">
+                <a href="#contact"
+                  class="text-size-15 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Contact
+                </a>
+              </li>
+              <li class="nav_item group relative">
+                <a href="index.html#blogs"
+                  class="text-size-15 font-medium text-white-color capitalize py-10px md:py-15px lg:py-25px 2xl:py-30px relative z-0 after:w-0 after:h-0.5 after:bg-gradient-primary after:absolute after:right-0 hover:after:left-0 after:bottom-[10px] md:after:bottom-[15px] lg:after:bottom-[25px] after:transition-all after:duration-500 group-hover:after:w-full">Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="copyright text-primary-color text-center font-light text-sm md:text-base whitespace-nowrap mt-5 md:mt-0">
+            © 2024 All rights reserved by
+            <a href="index.html" class="text-primary-color hover:text-primary-color font-medium">ThemeJunction</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JSS here -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+  <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+  <script src="assets/js/gsap-split-text.min.js"></script>
+  <script src="assets/js/appear.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/imagesloaded-pkgd.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/nice-select.min.js"></script>
+  <script src="assets/js/backToTop.js"></script>
+  <script src="assets/js/lenis.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/theme-controller.js"></script>
+  <script src="assets/js/vanilla-tilt.min.js"></script>
+  <script src="assets/js/sticky.min.js"></script>
+  <script src="assets/js/lightcase.js"></script>
+  <script src="assets/js/validate.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tj-cursor.js">
+  </script>
+</body>
+
+</html>

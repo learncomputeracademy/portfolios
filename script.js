@@ -4,71 +4,92 @@ const portfolios = [
         id: 5,
         title: "Ratnadeep's Portfolio",
         author: "Ratnadeep",
-        fileName: "ratnadeep-portfolio.zip",
-        thumbnail: "ratnadeep-portfolio.png",
+        fileName: "/zip-files/ratnadeep-portfolio.zip",
+        thumbnail: "/portfolio-links/ratnadeep-portfolio.png",
         tags: ["Motion", "Creative"],
         description: "A vibrant portfolio showcasing creative UI/UX design work with smooth animations and interactive elements.",
-        livePreviewUrl: "/ratnadeep/index.html"
+        livePreviewUrl: "/portfolio-links/ratnadeep/index.html"
     },
     {
         id: 1,
         title: "Monish's Portfolio",
         author: "Monish",
-        fileName: "monishlca2022.zip",
-        thumbnail: "monish-portfolio.png",
+        fileName: "/zip-files/monishlca2022.zip",
+        thumbnail: "/portfolio-links/monish-portfolio.png",
         tags: ["Motion", "Creative"],
         description: "A vibrant portfolio showcasing creative UI/UX design work with smooth animations and interactive elements.",
-        livePreviewUrl: "/monish/index.html"
+        livePreviewUrl: "/portfolio-links/monish/index.html"
     },
     {
         id: 2,
         title: "Tamal's Portfolio",
         author: "Tamal",
-        fileName: "tamallca2022.zip",
-        thumbnail: "tamal-portfolio.png",
+        fileName: "/zip-files/tamallca2022.zip",
+        thumbnail: "/portfolio-links/tamal-portfolio.png",
         tags: ["JavaScript", "Clean", "Minimal"],
         description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
-        livePreviewUrl: "/tamal/index.html"
+        livePreviewUrl: "/portfolio-links/tamal/index.html"
     },
     {
         id: 6,
         title: "Ujjal's Portfolio",
         author: "Ujjal",
-        fileName: "ujjal-portfolio.zip",
-        thumbnail: "ujjal-portfolio.png",
+        fileName: "/zip-files/ujjal-portfolio.zip",
+        thumbnail: "/portfolio-links/ujjal-portfolio.png",
         tags: ["JavaScript", "Clean", "Minimal"],
         description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
-        livePreviewUrl: "/ujjal/index.html"
+        livePreviewUrl: "/portfolio-links/ujjal/index.html"
     },
     {
         id: 7,
         title: "Mafiur's Portfolio",
         author: "Mafiur",
-        fileName: "mafiurislam-portfolio.zip",
-        thumbnail: "mafiur-portfolio.png",
+        fileName: "/zip-files/mafiurislam-portfolio.zip",
+        thumbnail: "/portfolio-links/mafiur-portfolio.png",
         tags: ["JavaScript", "Clean", "Minimal"],
         description: "A clean and minimal portfolio focused on showcasing development skills with a straightforward user interface.",
-        livePreviewUrl: "/mafiurislam/index.html"
+        livePreviewUrl: "/portfolio-links/mafiurislam/index.html"
     },
     {
         id: 3,
         title: "Suman Das Portfolio",
         author: "Suman Das",
-        fileName: "SumanDas_Portfolio-main.zip",
-        thumbnail: "suman-portfolio.png",
+        fileName: "/zip-files/SumanDas_Portfolio-main.zip",
+        thumbnail: "/portfolio-links/suman-portfolio.png",
         tags: ["Three.js", "WebGL", "Interactive"],
         description: "An innovative portfolio featuring 3D elements and interactive components showcasing full-stack development skills.",
-        livePreviewUrl: "/sumandas/index.html"
+        livePreviewUrl: "/portfolio-links/sumandas/index.html"
     },
     {
         id: 4,
         title: "Anup Banerjee Portfolio",
         author: "Anup Banerjee",
-        fileName: "anupbanerjee-main.zip",
-        thumbnail: "anup-portfolio.png",
+        fileName: "/zip-files/anupbanerjee-main.zip",
+        thumbnail: "/portfolio-links/anup-portfolio.png",
         tags: ["Minimalist", "Typography", "Clean"],
         description: "A typography-focused portfolio with minimalist design principles and elegant transitions.",
-        livePreviewUrl: "/anupbanerjee/index.html"
+        livePreviewUrl: "/portfolio-links/anupbanerjee/index.html"
+    },
+    {
+        id: 8,
+        title: "Template Heiko",
+        author: "Heiko",
+        fileName: "/zip-files/template-heiko.zip",
+        thumbnail: "/portfolio-links/heiko-portfolio.png",
+        tags: ["Grid", "Typography", "Clean"],
+        description: "A typography-focused portfolio with minimalist design principles and elegant transitions.",
+        livePreviewUrl: "/portfolio-links/heiko/index.html"
+    }
+    ,
+    {
+        id: 9,
+        title: "Template Drake",
+        author: "Drake",
+        fileName: "/zip-files/drake.zip",
+        thumbnail: "/portfolio-links/drake-portfolio.png",
+        tags: ["Grid", "Typography", "Clean"],
+        description: "A typography-focused portfolio with minimalist design principles and elegant transitions.",
+        livePreviewUrl: "/portfolio-links/drake/index.html"
     }
 ];
 

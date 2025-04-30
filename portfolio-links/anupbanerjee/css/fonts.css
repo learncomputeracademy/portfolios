@@ -1,0 +1,173 @@
+/*Aileron*/
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Italic.woff') format('woff'),
+        url('../fonts/Aileron-Italic.svg#Aileron-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Light.woff') format('woff'),
+        url('../fonts/Aileron-Light.svg#Aileron-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Bold.woff') format('woff'),
+        url('../fonts/Aileron-Bold.svg#Aileron-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Heavy.woff') format('woff'),
+        url('../fonts/Aileron-Heavy.svg#Aileron-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Regular.woff') format('woff'),
+        url('../fonts/Aileron-Regular.svg#Aileron-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-LightItalic.woff') format('woff'),
+        url('../fonts/Aileron-LightItalic.svg#Aileron-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-BoldItalic.woff') format('woff'),
+        url('../fonts/Aileron-BoldItalic.svg#Aileron-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-BlackItalic.woff') format('woff'),
+        url('../fonts/Aileron-BlackItalic.svg#Aileron-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-HeavyItalic.woff') format('woff'),
+        url('../fonts/Aileron-HeavyItalic.svg#Aileron-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Black.woff') format('woff'),
+        url('../fonts/Aileron-Black.svg#Aileron-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-ThinItalic.woff') format('woff'),
+        url('../fonts/Aileron-ThinItalic.svg#Aileron-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-UltraLightItalic.woff') format('woff'),
+        url('../fonts/Aileron-UltraLightItalic.svg#Aileron-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-Thin.woff') format('woff'),
+        url('../fonts/Aileron-Thin.svg#Aileron-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Aileron-SemiBoldItalic.svg#Aileron-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-SemiBold.woff') format('woff'),
+        url('../fonts/Aileron-SemiBold.svg#Aileron-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aileron';
+    src: url('../fonts/Aileron-UltraLight.woff') format('woff'),
+        url('../fonts/Aileron-UltraLight.svg#Aileron-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*Libre Baskerville*/
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville-Italic.woff') format('woff'),
+        url('../fonts/LibreBaskerville-Italic.svg#LibreBaskerville-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville-Bold.woff') format('woff'),
+        url('../fonts/LibreBaskerville-Bold.svg#LibreBaskerville-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../fonts/LibreBaskerville-Regular.woff') format('woff'),
+        url('../fonts/LibreBaskerville-Regular.svg#LibreBaskerville-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

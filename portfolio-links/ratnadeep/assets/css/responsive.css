@@ -1,0 +1,436 @@
+@media only screen and (max-width: 1921px) {
+    .header-banner-wrapper .banner-section .left-block .bottom-icon .icon ul li a{
+        --w: 50px;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon .icon ul li a i{
+        font-size: 25px;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon .icon ul li:nth-child(4) a i{
+        font-size: 29px;
+    }
+
+}
+
+@media only screen and (max-width: 1493px) {
+    .header-banner-wrapper .banner-section .left-block .bottom-icon .icon ul li a {
+        --w: 42px;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon .icon ul li a i {
+        font-size: 21px;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon .icon ul li:nth-child(4) a i {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1516px) {
+    .header-banner-wrapper{
+        height: 100%;
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1492px) {
+    .header-banner-wrapper header{
+        /* padding-bottom: 50px; */
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .header-banner-wrapper .banner-section .left-block .top-text h3 {
+        font-size: clamp(1.25rem, 1.1648rem + 0.4545vw, 1.5625rem);
+    }
+
+    .header-banner-wrapper .banner-section .left-block .top-text p{
+        font-size: 18px;
+    }   
+}
+
+@media only screen and (max-width: 1190px) {
+    .header-banner-wrapper header .logo-email-block .email-block a {
+        font-size: 14px;
+    }
+
+    .header-banner-wrapper .banner-section {
+        height: calc(100vh - 112px);
+    }
+
+    .header-banner-wrapper {
+        padding-bottom: 0;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .top-text h1 {
+        font-size: clamp(2.25rem, 1.964rem + 1.5254vw, 2.8125rem);
+    }
+
+    .header-banner-wrapper .banner-section .left-block .top-text p {
+        font-size: clamp(0.875rem, 0.8519rem + 0.1235vw, 1rem);
+    }
+
+    .header-banner-wrapper .banner-section .right-block .img-box {
+        width: 283px;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon a.download-btn {
+        font-size: 13px;
+        padding: 14px 32px;
+        gap: 4px;
+    }
+
+    .header-banner-wrapper header .nav-button-block .btn-block {
+        order: 1;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav {
+        width: max-content;
+        order: 2;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav ul {
+        position: absolute;
+        right: 0;
+        top: 50px;
+        display: none;
+        background-color: #0f0715;
+        border: inherit;
+        width: 100%;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav ul li{
+        padding: 13px 10px;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav ul li a{
+        border: inherit;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav .menu-toggle span.bars span {
+        display: block;
+        width: 20px;
+        height: 3px;
+        border-radius: 6px;
+        background: #ffffff;
+        margin: 0 0 4px;
+    }
+
+    .header-banner-wrapper header .nav-button-block {
+        position: relative;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav .menu-toggle {
+        padding: 0;
+    }
+
+    .my-portfolio-section .card {
+        /* height: 400px; */
+    }
+
+    .my-skills-section .skills-card .img-block i {
+        font-size: 100px;
+    }
+
+    .contact-section .right-block {
+        width: max-content;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .contact-section .right-block .icon-box{
+        background-color: #1B0D26;
+        width: 100%;
+        padding: 15px 15px 15px 15px;
+        border-radius: 10px;
+    }
+
+    .contact-section .right-block .icon-box .text span {
+        font-size: 14px;
+    }
+
+    .contact-section .right-block .icon-box .text h5 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1182px) {
+    .contact-section .right-block {
+        padding-left: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .header-banner-wrapper header .logo-email-block .email-block a {
+        font-size: 14px;
+    }
+
+    .header-banner-wrapper .banner-section {
+        height: calc(100vh - 112px);
+    }
+
+    .header-banner-wrapper {
+        padding-bottom: 0;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .top-text h1 {
+        font-size: clamp(2.25rem, 1.964rem + 1.5254vw, 2.8125rem);
+    }
+
+    .header-banner-wrapper .banner-section .left-block .top-text p {
+        font-size: clamp(0.875rem, 0.8519rem + 0.1235vw, 1rem);
+    }
+
+    .header-banner-wrapper .banner-section .right-block .img-box {
+        width: 283px;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon a.download-btn {
+        font-size: 13px;
+        padding: 14px 32px;
+        gap: 4px;
+    }
+
+    .header-banner-wrapper header .nav-button-block .btn-block {
+        order: 1;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav {
+        width: max-content;
+        order: 2;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav ul {
+        position: absolute;
+        right: 0;
+        top: 50px;
+        display: none;
+        background-color: #0f0715;
+        border: inherit;
+        width: 100%;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav ul li{
+        padding: 13px 10px;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav ul li a{
+        border: inherit;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav .menu-toggle span.bars span {
+        display: block;
+        width: 20px;
+        height: 3px;
+        border-radius: 6px;
+        background: #ffffff;
+        margin: 0 0 4px;
+    }
+
+    .header-banner-wrapper header .nav-button-block {
+        position: relative;
+    }
+
+    .header-banner-wrapper header .nav-button-block .stellarnav .menu-toggle {
+        padding: 0;
+    }
+
+    .my-portfolio-section .card {
+        /* height: 400px; */
+    }
+
+    .my-skills-section .skills-card .img-block i {
+        font-size: 100px;
+    }
+
+    .contact-section .right-block {
+        width: max-content;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .contact-section .right-block .icon-box{
+        background-color: #1B0D26;
+        width: 100%;
+        padding: 15px 15px 15px 15px;
+        border-radius: 10px;
+    }
+
+    .contact-section .right-block .icon-box .text span {
+        font-size: 14px;
+    }
+
+    .contact-section .right-block .icon-box .text h5 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-banner-wrapper {
+        padding-bottom: 70px;
+    }
+
+    .header-banner-wrapper .banner-section {
+        height: inherit;
+        padding: 30px 0 0 0;
+    }
+
+    .header-banner-wrapper header .logo-email-block  .email-block{
+        display: none;
+    }
+
+    .header-banner-wrapper header .nav-button-block .btn-block .hire-me-btn {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+
+    .header-banner-wrapper .banner-section .right-block .img-box {
+        width: 305px;
+    }
+
+    .header-banner-wrapper .animation svg text {
+        font-size: 300px;
+    }
+
+    .header-banner-wrapper .animation svg {
+        top: 64%;
+    }
+
+    .header-banner-wrapper .animation svg text{
+        stroke-width: 2.2px;
+    } 
+
+    .header-banner-wrapper::after {
+        height: 255px; 
+    }
+
+    .header-banner-wrapper .banner-section .right-block::after {
+        background: inherit;
+    }
+
+    .header-banner-wrapper .banner-section .left-block .bottom-icon {
+        margin: 0 auto;
+    }
+
+    .header-banner-wrapper .animation {
+        display: none;
+    }
+
+    .about-me-section {
+        padding: 50px 0;
+    }
+
+    .my-portfolio-section {
+        padding: 50px 0 50px 0;
+    }
+
+    .my-skills-section {
+        padding: 50px 0 50px 0;
+    }
+
+    .my-skills-section .skills-card .img-block i {
+        font-size: 80px;
+    }
+
+    .my-skills-section .skills-card .img-block span {
+        font-size: 17px;
+    }
+
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-section .left-block .form-block .form-control{
+        box-shadow: 0 0 10px rgba(135, 80, 247, 0.2);
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .contact-section .left-block {
+        padding: 50px 0;
+    }
+
+    .contact-section .left-block .top-heading {
+        text-align: center;
+        padding: 0 20px;
+        padding-bottom: 50px;
+    }
+
+    .contact-section .left-block .form-block{
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact-section .right-block {
+        width: 100%;
+    }
+
+    .contact-section .right-block .icon-box {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .contact-section .right-block .icon-box .text span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .my-portfolio-section .card {
+        /* height: 350px; */
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .my-portfolio-section .card {
+        padding: 25px 25px 0 25px;
+    }
+}
+
+
+@media only screen and (max-width: 422px) {
+    .header-banner-wrapper .banner-section .left-block .bottom-icon {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .my-portfolio-section .card {
+        padding: 30px 15px 0 15px;
+    }
+
+    .header-banner-wrapper header .logo-email-block .logo-block{
+        max-width: 34px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

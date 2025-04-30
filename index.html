@@ -24,7 +24,7 @@
                 </div>
                 <div class="view-toggle">
                     <button id="grid-view" class="active">
-                        <iconify-icon icon="solar:square-four-outline" width="20" height="20"></iconify-icon>
+                        <iconify-icon icon="lets-icons:3d-box-light" width="20" height="20"></iconify-icon>
                     </button>
                     <button id="list-view">
                         <iconify-icon icon="solar:list-linear" width="20" height="20"></iconify-icon>
@@ -34,33 +34,6 @@
         </header>
 
         <main class="main-content">
-            <div class="sidebar">
-                <div class="category-filter">
-                    <h3>Categories</h3>
-                    <ul class="filter-list">
-                        <li class="active" data-filter="all">All Portfolios</li>
-                        <li data-filter="design">Design</li>
-                        <li data-filter="development">Development</li>
-                        <li data-filter="creative">Creative</li>
-                        <li data-filter="minimal">Minimal</li>
-                    </ul>
-                </div>
-                
-                <div class="featured-section">
-                    <h3>Featured</h3>
-                    <div class="featured-portfolio">
-                        <div class="featured-image">
-                            <img src="monish-portfolio.png" alt="Featured Portfolio">
-                            <div class="featured-overlay">
-                                <span>View</span>
-                            </div>
-                        </div>
-                        <h4>Monish Lca</h4>
-                        <span class="featured-tag">Trending</span>
-                    </div>
-                </div>
-            </div>
-
             <div class="portfolio-grid grid-view" id="portfolio-container">
                 <!-- Portfolio cards will be dynamically generated here -->
             </div>
@@ -80,20 +53,6 @@
                     </div>
                     <div class="portfolio-info">
                         <h3 id="modal-author">Author Name</h3>
-                        <div class="portfolio-stats">
-                            <div class="stat">
-                                <iconify-icon icon="solar:eye-linear" width="16" height="16"></iconify-icon>
-                                <span id="modal-views">1.2k</span>
-                            </div>
-                            <div class="stat">
-                                <iconify-icon icon="solar:heart-linear" width="16" height="16"></iconify-icon>
-                                <span id="modal-likes">256</span>
-                            </div>
-                            <div class="stat">
-                                <iconify-icon icon="solar:download-linear" width="16" height="16"></iconify-icon>
-                                <span id="modal-downloads">124</span>
-                            </div>
-                        </div>
                         <div class="portfolio-tags" id="modal-tags">
                             <!-- Tags will be dynamically added here -->
                         </div>
@@ -109,12 +68,6 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="modal-features">
-                    <h4>Key Features</h4>
-                    <ul id="modal-features">
-                        <!-- Features will be dynamically added here -->
-                    </ul>
                 </div>
             </div>
         </div>

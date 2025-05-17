@@ -459,19 +459,19 @@ function updatePreviewLinksSection(portfolio, mainLinkElement) {
 
 // Download portfolio
 function downloadPortfolio(fileName) {
-    const actualFileName = fileName.split('/').pop();
-    
-    // Create a download link with the correct path
+    let filePath = fileName.startsWith('/') ? fileName.substring(1) : fileName;
+    const actualFileName = filePath.split('/').pop();
+
     const link = document.createElement('a');
-    link.href = fileName; // Use the exact path from the portfolio data
-    link.download = actualFileName; // Set the download attribute to just the file name
+    link.href = filePath; // Use the corrected path
+    link.download = actualFileName;
     
     // Append to body, trigger click, then remove
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     
-    console.log(`Downloading ${actualFileName}...`);
+    console.log(`Downloading ${actualFileName} from ${filePath}...`);
 }
 
 // Add animations

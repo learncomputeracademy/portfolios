@@ -459,15 +459,19 @@ function updatePreviewLinksSection(portfolio, mainLinkElement) {
 
 // Download portfolio
 function downloadPortfolio(fileName) {
-    // Create a fake download link to trigger the download
+    const actualFileName = fileName.split('/').pop();
+    
+    // Create a download link with the correct path
     const link = document.createElement('a');
-    link.href = `downloads/${fileName}`;
-    link.download = fileName;
+    link.href = fileName; // Use the exact path from the portfolio data
+    link.download = actualFileName; // Set the download attribute to just the file name
+    
+    // Append to body, trigger click, then remove
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
     
-    console.log(`Downloading ${fileName}...`);
+    console.log(`Downloading ${actualFileName}...`);
 }
 
 // Add animations
